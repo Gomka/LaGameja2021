@@ -40,12 +40,9 @@ public class MovementController : MonoBehaviour
         input.PlayerMovementEvent -= DirectionWalk;
     }
 
-    public void DirectionWalk(Vector2 direction){
-        
+    public void DirectionWalk(Vector2 direction)
+    {
         movementDirection = direction;
-        Debug.Log(direction);
-
-
     }
     
 
