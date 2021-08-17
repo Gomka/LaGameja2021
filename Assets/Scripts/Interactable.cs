@@ -7,6 +7,8 @@ using UnityEngine;
 public abstract class Interactable : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] private InputHandler input;
+    protected bool inside=false;
     void Reset()
     {
         GetComponent<BoxCollider2D>().isTrigger = true;
@@ -14,17 +16,30 @@ public abstract class Interactable : MonoBehaviour
     public abstract void Interact();
     //public abstract void OverLine(bool as);
     
-
-    private void entering(Collider2D coll)
+     private void OnEnable()
     {
-        /* if(collision.CompareTag("Player"))
-            OverLine(true) */
+        input.PlayerInteractionEvent += Interact;
+    }
 
+    private void OnDisable()
+    {
+
+        input.PlayerInteractionEvent -= Interact;
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log(col);
+         if(col.CompareTag("Player"))
+            inside = true;
+           /* OverLine(true) */
+        
             
     }
-    private void exiting(Collider2D coll)
+    private void OnTriggerExit2D(Collider2D col)
     {
-        /* if(collision.CompareTag("Player"))
-            OverLine(false) */
+        Debug.Log("Exiting");
+         if(col.CompareTag("Player"))
+            /*OverLine(false) */
+        inside = false;
     }
 }

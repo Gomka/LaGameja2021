@@ -13,6 +13,8 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
+    public bool isInteracting= false;
+
     void Start()
     {
         sentences = new Queue<string>();
@@ -21,7 +23,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        if(!isInteracting){
         animator.SetBool("IsOpen", true);
+        isInteracting=true;
 
         sentences.Clear();
 
@@ -34,6 +38,7 @@ public class DialogueManager : MonoBehaviour
         audioSource.clip = dialogue.npcVoice;
 
         DisplayNextSentence();
+    }
     }
 
     public void DisplayNextSentence()
@@ -58,12 +63,13 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             audioSource.pitch = Random.Range(0, 2);
             audioSource.Play();
-            yield return null;
+            yield return new WaitForSeconds(0.1f);
         }
     }
 
     private void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        isInteracting=false;
     }
 }
