@@ -11,6 +11,4 @@ public class Dialogue
     public string[] sentences;
 
     public AudioClip npcVoice;
-
-    public bool isChaotic;
 }

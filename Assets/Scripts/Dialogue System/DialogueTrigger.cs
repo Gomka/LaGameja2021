@@ -5,12 +5,24 @@ using UnityEngine;
 public class DialogueTrigger : Interactable
 {
     public Dialogue dialogue;
+    private DialogueManager dManager;
+
+    private void Awake()
+    {
+        dManager = FindObjectOfType<DialogueManager>();
+
+    }
 
     public override void Interact()
     {
-        DialogueManager dManager = FindObjectOfType<DialogueManager>();
-        if (inside && !dManager.isInteracting){
-            dManager.StartDialogue(dialogue);
+        if (inside){
+            if(!dManager.isInteracting)
+            {
+                dManager.StartDialogue(dialogue);
+            } else
+            {
+                dManager.DisplayNextSentence();
+            }
         }
     }
 }

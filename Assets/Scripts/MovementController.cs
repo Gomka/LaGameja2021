@@ -89,7 +89,6 @@ public class MovementController : MonoBehaviour
     {
         sprinting = false;
         movementDirection = new Vector2(0, 0);
-        lastInput = movementDirection;
         ar.SetFloat("Speed", 0);
     }
 }

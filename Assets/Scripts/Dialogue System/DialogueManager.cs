@@ -15,7 +15,7 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
-    public bool isInteracting= false, chaos = false;
+    public bool isInteracting= false;
 
     private MovementController movement;
 
@@ -28,7 +28,9 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         if(!isInteracting){
+
         animator.SetBool("IsOpen", true);
+
         isInteracting=true;
         movement.StopMovement();
         movement.enabled = false;
@@ -42,7 +44,6 @@ public class DialogueManager : MonoBehaviour
 
         npcName.text = dialogue.npcName;
         audioSource.clip = dialogue.npcVoice;
-        chaos = dialogue.isChaotic;
 
         DisplayNextSentence();
         }
@@ -58,8 +59,6 @@ public class DialogueManager : MonoBehaviour
 
         string sentence = sentences.Dequeue();
 
-        if(!chaos) StopAllCoroutines(); // Comment this line for nonsense
-
         StartCoroutine(TypeSentence(sentence));
     }
 
@@ -71,7 +70,7 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             audioSource.pitch = Random.Range(-0.5f, 3);
             audioSource.Play();
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.05f);
         }
     }
 
@@ -83,15 +82,8 @@ public class DialogueManager : MonoBehaviour
         isInteracting = false;
     }
 
-    private void OnEnable()
+    private void Awake()
     {
-        input = FindObjectOfType<InputHandler>();
         movement = FindObjectOfType<MovementController>();
-        input.PlayerInteractionEvent += DisplayNextSentence;
-    }
-
-    private void OnDisable()
-    {
-        input.PlayerInteractionEvent -= DisplayNextSentence;
     }
 }
