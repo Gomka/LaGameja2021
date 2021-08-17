@@ -30,6 +30,7 @@ public class DialogueManager : MonoBehaviour
         if(!isInteracting){
         animator.SetBool("IsOpen", true);
         isInteracting=true;
+        movement.StopMovement();
         movement.enabled = false;
 
         sentences.Clear();
