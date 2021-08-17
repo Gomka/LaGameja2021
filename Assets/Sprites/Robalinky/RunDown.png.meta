@@ -1,43 +1,25 @@
 fileFormatVersion: 2
-guid: 3e34cfc8ec961e24c85339d1a2b633fd
+guid: 441ae52b8b8208e44b3937576de0f594
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1484603371084873489
-    second: IdleDown 1_0
+      213: 5418130786354320263
+    second: RunDown_0
   - first:
-      213: 2894836514641499862
-    second: IdleDown 1_1
+      213: 4130902561586801914
+    second: RunDown_1
   - first:
-      213: 4942474638250695292
-    second: IdleDown 1_2
+      213: 1099950986459024416
+    second: RunDown_2
   - first:
-      213: -4086951505769727272
-    second: IdleDown 1_3
+      213: 3539030293778388343
+    second: RunDown_3
   - first:
-      213: 5247791696545006546
-    second: IdleDown 1_4
+      213: -6219880351055038522
+    second: RunDown_4
   - first:
-      213: 5309167318341099155
-    second: IdleDown 1_5
-  - first:
-      213: 6829741946841023764
-    second: IdleDown 1_6
-  - first:
-      213: -9192397352033496540
-    second: IdleDown 1_7
-  - first:
-      213: 7606406368826223280
-    second: IdleDown 1_8
-  - first:
-      213: 7551492355897244766
-    second: IdleDown 1_9
-  - first:
-      213: -5911446546019258607
-    second: IdleDown 1_10
-  - first:
-      213: -7935188014411399783
-    second: IdleDown 1_11
+      213: 3871237698512098946
+    second: RunDown_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,11 +145,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleDown 1_0
+      name: RunDown_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
+        y: 11
         width: 32
         height: 49
       alignment: 0
@@ -177,18 +159,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11f7cd576ee5a9410800000000000000
-      internalID: 1484603371084873489
+      spriteID: 783d1436e31113b40800000000000000
+      internalID: 5418130786354320263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_1
+      name: RunDown_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 12
+        y: 11
         width: 32
         height: 49
       alignment: 0
@@ -198,18 +180,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d6590af8768c2820800000000000000
-      internalID: 2894836514641499862
+      spriteID: afce1294ef9e35930800000000000000
+      internalID: 4130902561586801914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_2
+      name: RunDown_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 12
+        y: 11
         width: 32
         height: 49
       alignment: 0
@@ -219,18 +201,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7a5f444f72379440800000000000000
-      internalID: 4942474638250695292
+      spriteID: 02c0b3a289fc34f00800000000000000
+      internalID: 1099950986459024416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_3
+      name: RunDown_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 12
+        y: 11
         width: 32
         height: 49
       alignment: 0
@@ -240,18 +222,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8daf854524b3847c0800000000000000
-      internalID: -4086951505769727272
+      spriteID: 775d1063d492d1130800000000000000
+      internalID: 3539030293778388343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_4
+      name: RunDown_4
       rect:
         serializedVersion: 2
         x: 128
-        y: 12
+        y: 11
         width: 32
         height: 49
       alignment: 0
@@ -261,18 +243,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d34fc77eb6e3d840800000000000000
-      internalID: 5247791696545006546
+      spriteID: 6c7bee966cb8ea9a0800000000000000
+      internalID: -6219880351055038522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_5
+      name: RunDown_5
       rect:
         serializedVersion: 2
         x: 160
-        y: 12
+        y: 11
         width: 32
         height: 49
       alignment: 0
@@ -282,134 +264,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39e95defb83fda940800000000000000
-      internalID: 5309167318341099155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleDown 1_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 12
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4154b097d1e18ce50800000000000000
-      internalID: 6829741946841023764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleDown 1_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 12
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4225dcdcf4b0e6080800000000000000
-      internalID: -9192397352033496540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleDown 1_8
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 12
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0bae72fba426f8960800000000000000
-      internalID: 7606406368826223280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleDown 1_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 12
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5c3555c94a4cc860800000000000000
-      internalID: 7551492355897244766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleDown 1_10
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 12
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11fefc3cfa256fda0800000000000000
-      internalID: -5911446546019258607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleDown 1_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 12
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99d32171b8c80e190800000000000000
-      internalID: -7935188014411399783
+      spriteID: 2861ae41d2669b530800000000000000
+      internalID: 3871237698512098946
       vertices: []
       indices: 
       edges: []
@@ -417,7 +273,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: dc43c8efc70da064d9ad47414192c46d
     internalID: 0
     vertices: []
     indices: 

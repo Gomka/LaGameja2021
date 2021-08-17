@@ -9,11 +9,14 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> sentences;
 
+    private AudioSource audioSource;
+
     public Animator animator;
 
     void Start()
     {
         sentences = new Queue<string>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -28,6 +31,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         npcName.text = dialogue.npcName;
+        audioSource.clip = dialogue.npcVoice;
 
         DisplayNextSentence();
     }
@@ -52,6 +56,8 @@ public class DialogueManager : MonoBehaviour
         foreach(char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
+            audioSource.pitch = Random.Range(0, 2);
+            audioSource.Play();
             yield return null;
         }
     }

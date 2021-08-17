@@ -224,6 +224,7 @@ MonoBehaviour:
     - Ola, jo ih soc el ximplet
     - "...\xBF?"
     - bebe leche bomilk.
+    npcVoice: {fileID: 0}
 --- !u!4 &496732007
 Transform:
   m_ObjectHideFlags: 0
@@ -274,8 +275,8 @@ Camera:
   m_GameObject: {fileID: 906880062}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.6556604, g: 0.7895702, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -372,8 +373,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &974039647
-BoxCollider2D:
+--- !u!70 &974039647
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -385,19 +386,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.240055, y: 7.9800005}
-    newSize: {x: 11.240055, y: 7.9800005}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 11.240055, y: 7.9800005}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.38470048, y: 0.2083384}
+  m_Size: {x: 6.5122623, y: 6.5122623}
+  m_Direction: 1
 --- !u!212 &974039648
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -475,11 +466,11 @@ GameObject:
   - component: {fileID: 1657775708}
   - component: {fileID: 1657775710}
   - component: {fileID: 1657775713}
+  - component: {fileID: 1657775714}
   - component: {fileID: 1657775712}
   - component: {fileID: 1657775711}
-  - component: {fileID: 1657775714}
   m_Layer: 0
-  m_Name: Robalinky
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,15 +516,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5021154340700164846, guid: e411c4abdec773d438e744924d79ce09, type: 3}
+  m_Sprite: {fileID: 1484603371084873489, guid: 3e34cfc8ec961e24c85339d1a2b633fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1.5}
+  m_Size: {x: 1, y: 1.53125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1657775709
@@ -594,11 +585,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 1657775711}
-  rb: {fileID: 1657775713}
   movementSpeed: 5
-  sprintingMultiplier: 2
-  ar: {fileID: 1657775710}
-  sprinting: 0
+  sprintingMultiplier: 1.5
 --- !u!50 &1657775713
 Rigidbody2D:
   serializedVersion: 4
@@ -633,18 +621,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.06}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1.53125}
+    newSize: {x: 1, y: 1.53125}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.75, y: 1.22}
   m_EdgeRadius: 0
 --- !u!1 &1995865926
 GameObject:
@@ -800,6 +788,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5519452224122679962, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
       propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994595856807680300, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
+      propertyPath: m_Pitch
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7384912406530777622, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}

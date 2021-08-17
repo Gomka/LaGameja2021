@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: 3e34cfc8ec961e24c85339d1a2b633fd
+guid: 3ec37e20151a6d74cb3d35e5b2356a02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1484603371084873489
-    second: IdleDown 1_0
+      213: -8830721901174836035
+    second: WalkDown_0
   - first:
-      213: 2894836514641499862
-    second: IdleDown 1_1
+      213: 8100657595718731531
+    second: WalkDown_1
   - first:
-      213: 4942474638250695292
-    second: IdleDown 1_2
+      213: 7693077107956105692
+    second: WalkDown_2
   - first:
-      213: -4086951505769727272
-    second: IdleDown 1_3
+      213: -4102124623599646074
+    second: WalkDown_3
   - first:
-      213: 5247791696545006546
-    second: IdleDown 1_4
+      213: 2804550559828367112
+    second: WalkDown_4
   - first:
-      213: 5309167318341099155
-    second: IdleDown 1_5
+      213: -6261836212592285338
+    second: WalkDown_5
   - first:
-      213: 6829741946841023764
-    second: IdleDown 1_6
+      213: -8804674253010364136
+    second: WalkDown_6
   - first:
-      213: -9192397352033496540
-    second: IdleDown 1_7
+      213: 8009414917972472599
+    second: WalkDown_7
   - first:
-      213: 7606406368826223280
-    second: IdleDown 1_8
+      213: -290499587586158370
+    second: WalkDown_8
   - first:
-      213: 7551492355897244766
-    second: IdleDown 1_9
-  - first:
-      213: -5911446546019258607
-    second: IdleDown 1_10
-  - first:
-      213: -7935188014411399783
-    second: IdleDown 1_11
+      213: -6051628131834118195
+    second: WalkDown_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,7 +157,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleDown 1_0
+      name: WalkDown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -177,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11f7cd576ee5a9410800000000000000
-      internalID: 1484603371084873489
+      spriteID: db43632d739f27580800000000000000
+      internalID: -8830721901174836035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_1
+      name: WalkDown_1
       rect:
         serializedVersion: 2
         x: 32
@@ -198,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d6590af8768c2820800000000000000
-      internalID: 2894836514641499862
+      spriteID: b0782e70a215b6070800000000000000
+      internalID: 8100657595718731531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_2
+      name: WalkDown_2
       rect:
         serializedVersion: 2
         x: 64
@@ -219,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7a5f444f72379440800000000000000
-      internalID: 4942474638250695292
+      spriteID: cd1c969bedc43ca60800000000000000
+      internalID: 7693077107956105692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_3
+      name: WalkDown_3
       rect:
         serializedVersion: 2
         x: 96
@@ -240,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8daf854524b3847c0800000000000000
-      internalID: -4086951505769727272
+      spriteID: 68ac5f983635217c0800000000000000
+      internalID: -4102124623599646074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_4
+      name: WalkDown_4
       rect:
         serializedVersion: 2
         x: 128
@@ -261,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d34fc77eb6e3d840800000000000000
-      internalID: 5247791696545006546
+      spriteID: 807513100e3cbe620800000000000000
+      internalID: 2804550559828367112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_5
+      name: WalkDown_5
       rect:
         serializedVersion: 2
         x: 160
@@ -282,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39e95defb83fda940800000000000000
-      internalID: 5309167318341099155
+      spriteID: 66962ca242d7919a0800000000000000
+      internalID: -6261836212592285338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_6
+      name: WalkDown_6
       rect:
         serializedVersion: 2
         x: 192
@@ -303,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4154b097d1e18ce50800000000000000
-      internalID: 6829741946841023764
+      spriteID: 8191a428a638fc580800000000000000
+      internalID: -8804674253010364136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_7
+      name: WalkDown_7
       rect:
         serializedVersion: 2
         x: 224
@@ -324,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4225dcdcf4b0e6080800000000000000
-      internalID: -9192397352033496540
+      spriteID: 713b674ae68272f60800000000000000
+      internalID: 8009414917972472599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_8
+      name: WalkDown_8
       rect:
         serializedVersion: 2
         x: 256
@@ -345,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bae72fba426f8960800000000000000
-      internalID: 7606406368826223280
+      spriteID: ed0978a0a20f7fbf0800000000000000
+      internalID: -290499587586158370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleDown 1_9
+      name: WalkDown_9
       rect:
         serializedVersion: 2
         x: 288
@@ -366,50 +360,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5c3555c94a4cc860800000000000000
-      internalID: 7551492355897244766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleDown 1_10
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 12
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11fefc3cfa256fda0800000000000000
-      internalID: -5911446546019258607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleDown 1_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 12
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99d32171b8c80e190800000000000000
-      internalID: -7935188014411399783
+      spriteID: dcf3449e64c440ca0800000000000000
+      internalID: -6051628131834118195
       vertices: []
       indices: 
       edges: []
