@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -180,6 +180,7 @@ MonoBehaviour:
   npcName: {fileID: 5519452224122679962}
   dialogueText: {fileID: 7909039001767108663}
   animator: {fileID: 7909039000445136949}
+  isInteracting: 0
 --- !u!82 &5994595856807680300
 AudioSource:
   m_ObjectHideFlags: 0

@@ -7,13 +7,15 @@ public class DialogueManager : MonoBehaviour
 {
     public Text npcName, dialogueText;
 
+    private InputHandler input;
+
     private Queue<string> sentences;
 
     private AudioSource audioSource;
 
     public Animator animator;
 
-    public bool isInteracting= false;
+    public bool isInteracting= false, chaos = false;
 
     void Start()
     {
@@ -36,22 +38,24 @@ public class DialogueManager : MonoBehaviour
 
         npcName.text = dialogue.npcName;
         audioSource.clip = dialogue.npcVoice;
+        chaos = dialogue.isChaotic;
 
         DisplayNextSentence();
-    }
+        }
     }
 
     public void DisplayNextSentence()
     {
         if(sentences.Count == 0)
         {
-            EndDialogue();
+            StartCoroutine(EndDialogue());
             return;
         }
 
         string sentence = sentences.Dequeue();
 
-        StopAllCoroutines();
+        if(!chaos) StopAllCoroutines(); // Comment this line for nonsense
+
         StartCoroutine(TypeSentence(sentence));
     }
 
@@ -61,15 +65,27 @@ public class DialogueManager : MonoBehaviour
         foreach(char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            audioSource.pitch = Random.Range(0, 2);
+            audioSource.pitch = Random.Range(-0.5f, 3);
             audioSource.Play();
             yield return new WaitForSeconds(0.1f);
         }
     }
 
-    private void EndDialogue()
+    IEnumerator EndDialogue()
     {
         animator.SetBool("IsOpen", false);
-        isInteracting=false;
+        yield return new WaitForSeconds(0.5f);
+        isInteracting = false;
+    }
+
+    private void OnEnable()
+    {
+        input = FindObjectOfType<InputHandler>();
+        input.PlayerInteractionEvent += DisplayNextSentence;
+    }
+
+    private void OnDisable()
+    {
+        input.PlayerInteractionEvent -= DisplayNextSentence;
     }
 }

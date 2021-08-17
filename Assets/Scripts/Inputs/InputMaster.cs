@@ -340,6 +340,17 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""9cf39302-eff7-49f3-865b-29c006607a1f"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Interaction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""731047aa-a54f-454c-a1a3-6eab630ae583"",
                     ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": ""Press"",

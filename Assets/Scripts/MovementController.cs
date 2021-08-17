@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
-    [SerializeField] private InputHandler input;
+    private InputHandler input;
     private Vector2 movementDirection, lastMove, lastInput;
     private Rigidbody2D rb;
     private Animator ar;
     private bool sprinting = false;
     public float movementSpeed = 5f, sprintingMultiplier = 1.5f;
 
-
     void Start()
     {
-      rb = GetComponent<Rigidbody2D>();
-      ar = GetComponent<Animator>();  
+        rb = GetComponent<Rigidbody2D>();
+        ar = GetComponent<Animator>();
     }
 
     void Update()
@@ -38,6 +37,7 @@ public class MovementController : MonoBehaviour
 
     private void OnEnable()
     {
+        input = FindObjectOfType<InputHandler>();
         input.PlayerMovementEvent += DirectionWalk;
         input.SprintEvent += isSprinting;
     }

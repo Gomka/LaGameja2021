@@ -8,8 +8,9 @@ public class DialogueTrigger : Interactable
 
     public override void Interact()
     {
-        if (inside){
-            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        DialogueManager dManager = FindObjectOfType<DialogueManager>();
+        if (inside && !dManager.isInteracting){
+            dManager.StartDialogue(dialogue);
         }
     }
 }
