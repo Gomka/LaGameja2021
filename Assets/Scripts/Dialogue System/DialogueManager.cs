@@ -17,6 +17,8 @@ public class DialogueManager : MonoBehaviour
 
     public bool isInteracting= false, chaos = false;
 
+    private MovementController movement;
+
     void Start()
     {
         sentences = new Queue<string>();
@@ -28,6 +30,8 @@ public class DialogueManager : MonoBehaviour
         if(!isInteracting){
         animator.SetBool("IsOpen", true);
         isInteracting=true;
+        movement.StopMovement();
+        movement.enabled = false;
 
         sentences.Clear();
 
@@ -74,6 +78,7 @@ public class DialogueManager : MonoBehaviour
     IEnumerator EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        movement.enabled = true;
         yield return new WaitForSeconds(0.5f);
         isInteracting = false;
     }
@@ -81,6 +86,7 @@ public class DialogueManager : MonoBehaviour
     private void OnEnable()
     {
         input = FindObjectOfType<InputHandler>();
+        movement = FindObjectOfType<MovementController>();
         input.PlayerInteractionEvent += DisplayNextSentence;
     }
 

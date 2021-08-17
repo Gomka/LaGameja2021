@@ -84,4 +84,12 @@ public class MovementController : MonoBehaviour
         sprinting = isSprinting;
         ar.SetBool("isSprinting", sprinting);
     }
+
+    public void StopMovement()
+    {
+        sprinting = false;
+        movementDirection = new Vector2(0, 0);
+        lastInput = movementDirection;
+        ar.SetFloat("Speed", 0);
+    }
 }
