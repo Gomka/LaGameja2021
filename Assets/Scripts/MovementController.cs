@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField] private InputHandler input;
     private Vector2 movementDirection;
     public Rigidbody2D rb;
-    public float movementSpeed = 5f;
+    public float movementSpeed = 5f, sprintingMultiplier = 2f;
     public Animator ar;
+    public bool sprinting = false;
 
     void Start()
     {
@@ -28,24 +28,33 @@ public class MovementController : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movementDirection * movementSpeed * Time.fixedDeltaTime);
+        if(sprinting)
+        {
+            rb.MovePosition(rb.position + movementDirection * movementSpeed * Time.fixedDeltaTime * sprintingMultiplier);
+        } else
+        {
+            rb.MovePosition(rb.position + movementDirection * movementSpeed * Time.fixedDeltaTime);
+        } 
     }
     private void OnEnable()
     {
         input.PlayerMovementEvent += DirectionWalk;
+        input.SprintEvent += isSprinting;
     }
 
     private void OnDisable()
     {
         input.PlayerMovementEvent -= DirectionWalk;
+        input.SprintEvent -= isSprinting;
     }
 
     public void DirectionWalk(Vector2 direction)
     {
         movementDirection = direction;
     }
-    
 
-
-
+    public void isSprinting(bool isSprinting)
+    {
+        sprinting = isSprinting;
+    }
 }

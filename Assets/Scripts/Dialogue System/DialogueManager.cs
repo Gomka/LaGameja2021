@@ -11,7 +11,6 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
-    // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
