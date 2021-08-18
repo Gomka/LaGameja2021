@@ -10,25 +10,18 @@ public class DialogueTrigger : Interactable
     private void Awake()
     {
         dManager = FindObjectOfType<DialogueManager>();
-
     }
 
     public override void Interact()
     {
-        if (inside){
-            if(!dManager.isInteracting)
-            {
-                dManager.StartDialogue(dialogue);
-            } else
-            {
-                dManager.DisplayNextSentence();
-            }
+        if (inside && !dManager.isInteracting)
+        {
+            dManager.StartDialogue(dialogue);
         }
     }
 
     public override void Exit()
     {
         dManager.EndConversation();
-
     }
 }

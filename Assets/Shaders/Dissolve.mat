@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f608144f5ba761741848cea75372f403, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4217554ca2147a946b0935211ff19257, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Fade: 1
+    - _Fade: 0.4
     - _Scale: 40
     m_Colors:
     - Color_064a3758771b4f2da8e93978b215b32d: {r: 0.7882804, g: 0, b: 2.64151, a: 0}
