@@ -51,15 +51,18 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        if(sentences.Count == 0)
+        if(isInteracting)
         {
-            StartCoroutine(EndDialogue());
-            return;
+            if (sentences.Count == 0)
+            {
+                StartCoroutine(EndDialogue());
+                return;
+            }
+
+            string sentence = sentences.Dequeue();
+
+            StartCoroutine(TypeSentence(sentence));
         }
-
-        string sentence = sentences.Dequeue();
-
-        StartCoroutine(TypeSentence(sentence));
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -76,10 +79,18 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator EndDialogue()
     {
-        animator.SetBool("IsOpen", false);
-        movement.enabled = true;
-        yield return new WaitForSeconds(0.5f);
-        isInteracting = false;
+        if(isInteracting)
+        {
+            animator.SetBool("IsOpen", false);
+            movement.enabled = true;
+            yield return new WaitForSeconds(0.5f);
+            isInteracting = false;
+        }
+    }
+
+    public void EndConversation()
+    {
+        StartCoroutine(EndDialogue());
     }
 
     private void Awake()

@@ -6,11 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public abstract class Interactable : MonoBehaviour
 {
-
     private InputHandler input;
     protected bool inside=false;
-
-    
 
     void Reset()
     {
@@ -18,12 +15,11 @@ public abstract class Interactable : MonoBehaviour
     }
 
     public abstract void Interact();
-    public void OverLine(bool near){
-        Debug.Log("Fuera");
+    public abstract void Exit();
+    public void OverLine(bool near)
+    {
         if(near){
-            Debug.Log("Dentro");
              gameObject.GetComponent<Renderer>().sharedMaterial.SetInt("_Colliding", 1);
-             Debug.Log("Cambio");
         }
         else{
             gameObject.GetComponent<Renderer>().sharedMaterial.SetInt("_Colliding", 0);
@@ -34,11 +30,13 @@ public abstract class Interactable : MonoBehaviour
     {
         input = FindObjectOfType<InputHandler>();
         input.PlayerInteractionEvent += Interact;
+        input.ExitEvent += Exit;
     }
 
     private void OnDisable()
     {
         input.PlayerInteractionEvent -= Interact;
+        input.ExitEvent -= Exit;
     }
 
     private void OnTriggerEnter2D(Collider2D col)

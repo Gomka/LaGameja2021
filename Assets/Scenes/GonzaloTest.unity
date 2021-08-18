@@ -462,6 +462,8 @@ MonoBehaviour:
     npcName: "Picard\xEDa"
     sentences:
     - Me pica la cabeza por dentro
+    - Me pica la cabeza por dentro
+    - Me pica la cabeza por dentro
     npcVoice: {fileID: 8300000, guid: 3a6478ad29723014d824eb32a8e75438, type: 3}
 --- !u!61 &974039651
 BoxCollider2D:

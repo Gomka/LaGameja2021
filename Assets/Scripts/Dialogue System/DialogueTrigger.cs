@@ -25,4 +25,10 @@ public class DialogueTrigger : Interactable
             }
         }
     }
+
+    public override void Exit()
+    {
+        dManager.EndConversation();
+
+    }
 }
