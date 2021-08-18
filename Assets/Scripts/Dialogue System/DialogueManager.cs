@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
-    public bool isInteracting= false;
+    public bool isInteracting = false;
 
     private MovementController movement;
 
@@ -38,6 +38,8 @@ public class DialogueManager : MonoBehaviour
             npcName.text = dialogue.NPCName;
             audioSource.clip = dialogue.NPCVoice;
 
+            EnableButtons();
+
             StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
     }
@@ -53,6 +55,7 @@ public class DialogueManager : MonoBehaviour
             }
 
             currentNode = currentNode.Choices[index].ChoiceNode;
+            EnableButtons();
 
             StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
@@ -61,10 +64,6 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
-        defaultButton.gameObject.SetActive(true);
-        bOption1.gameObject.SetActive(false);
-        bOption2.gameObject.SetActive(false);
-        bOption3.gameObject.SetActive(false);
 
         foreach (char letter in sentence.ToCharArray())
         {
@@ -72,27 +71,6 @@ public class DialogueManager : MonoBehaviour
             audioSource.pitch = Random.Range(-0.5f, 3);
             audioSource.Play();
             yield return new WaitForSeconds(0.05f);
-        }
-
-        if (currentNode.Choices.Length != 0)
-        {
-            defaultButton.enabled = false;
-
-            if (currentNode.Choices[0] != null)
-            {
-                bOption1.gameObject.SetActive(true);
-                // Choice 1 button
-            }
-            if (currentNode.Choices[1] != null)
-            {
-                bOption2.gameObject.SetActive(true);
-                // Choice 2 button
-            }
-            if (currentNode.Choices[2] != null)
-            {
-                bOption3.gameObject.SetActive(true);
-                // Choice 3 button
-            }
         }
     }
 
@@ -105,6 +83,33 @@ public class DialogueManager : MonoBehaviour
             currentNode = null;
             yield return new WaitForSeconds(0.5f);
             isInteracting = false;
+        }
+    }
+
+    private void EnableButtons()
+    {
+        defaultButton.gameObject.SetActive(true);
+        bOption1.gameObject.SetActive(false);
+        bOption2.gameObject.SetActive(false);
+        bOption3.gameObject.SetActive(false);
+        
+        if (currentNode.Choices.Length != 0)
+        {
+            defaultButton.gameObject.SetActive(false);
+
+            bOption1.gameObject.SetActive(true);
+            bOption1.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[0].ChoicePreview;
+
+            if (currentNode.Choices.Length > 1)
+            {
+                bOption2.gameObject.SetActive(true);
+                bOption1.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[1].ChoicePreview;
+            }
+            if (currentNode.Choices.Length > 2)
+            {
+                bOption3.gameObject.SetActive(true);
+                bOption1.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[2].ChoicePreview;
+            }
         }
     }
 

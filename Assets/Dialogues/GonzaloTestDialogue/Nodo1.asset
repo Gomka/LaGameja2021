@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: Nodo1
   m_EditorClassIdentifier: 
   m_DialogueLine: Me pica la cabeza por dentro
-  m_Choices: []
+  m_Choices:
+  - m_ChoicePreview: bomilk
+    m_ChoiceNode: {fileID: 11400000, guid: 524d3a19d23497f42bb3b320ff13f490, type: 2}
+  - m_ChoicePreview: meat slap
+    m_ChoiceNode: {fileID: 11400000, guid: 61111111d89789c4eb47b3061e8b6245, type: 2}
+  - m_ChoicePreview: que?
+    m_ChoiceNode: {fileID: 11400000, guid: 102993d7b8649d34a9c2d43495692078, type: 2}
