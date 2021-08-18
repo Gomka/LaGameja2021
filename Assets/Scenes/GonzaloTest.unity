@@ -513,6 +513,7 @@ GameObject:
   - component: {fileID: 658077996}
   - component: {fileID: 658077995}
   - component: {fileID: 658077994}
+  - component: {fileID: 658077998}
   m_Layer: 0
   m_Name: "picar\xF3n_picant\xF3n"
   m_TagString: Untagged
@@ -627,6 +628,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &658077998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658077993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c956a94b59c3f4b4fb403e7aa551e445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 11400000, guid: d45f5b9df77d8d04595e29f77b7a30ae, type: 2}
 --- !u!4 &739854357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7641713144610175147, guid: 095ab990d8c76e044a6077bf1f99e2b6, type: 3}

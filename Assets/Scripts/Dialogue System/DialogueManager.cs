@@ -103,12 +103,12 @@ public class DialogueManager : MonoBehaviour
             if (currentNode.Choices.Length > 1)
             {
                 bOption2.gameObject.SetActive(true);
-                bOption1.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[1].ChoicePreview;
+                bOption2.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[1].ChoicePreview;
             }
             if (currentNode.Choices.Length > 2)
             {
                 bOption3.gameObject.SetActive(true);
-                bOption1.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[2].ChoicePreview;
+                bOption3.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[2].ChoicePreview;
             }
         }
     }
