@@ -1,27 +1,26 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Text npcName, dialogueText;
+    public TextMeshProUGUI npcName, dialogueText;
 
-    private InputHandler input;
-
-    private Queue<string> sentences;
+    private DialogueNode currentNode;
 
     private AudioSource audioSource;
 
     public Animator animator;
 
-    public bool isInteracting= false;
+    public bool isInteracting = false;
 
     private MovementController movement;
 
+    [SerializeField] private Button defaultButton, bOption1, bOption2, bOption3;
+
     void Start()
     {
-        sentences = new Queue<string>();
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -29,46 +28,44 @@ public class DialogueManager : MonoBehaviour
     {
         if(!isInteracting){
 
-        animator.SetBool("IsOpen", true);
+            animator.SetBool("IsOpen", true);
 
-        isInteracting=true;
-        movement.StopMovement();
-        movement.enabled = false;
+            isInteracting=true;
+            movement.StopMovement();
+            movement.enabled = false;
 
-        sentences.Clear();
+            currentNode = dialogue.FirstNode;
+            npcName.text = dialogue.NPCName;
+            audioSource.clip = dialogue.NPCVoice;
 
-        foreach(string sentence in dialogue.sentences)
-        {
-            sentences.Enqueue(sentence);
-        }
+            EnableButtons();
 
-        npcName.text = dialogue.npcName;
-        audioSource.clip = dialogue.npcVoice;
-
-        DisplayNextSentence();
+            StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
     }
 
-    public void DisplayNextSentence()
+    public void DisplayNextSentence(int index)
     {
         if(isInteracting)
         {
-            if (sentences.Count == 0)
+            if (currentNode.Choices.Length == 0)
             {
                 StartCoroutine(EndDialogue());
                 return;
             }
 
-            string sentence = sentences.Dequeue();
+            currentNode = currentNode.Choices[index].ChoiceNode;
+            EnableButtons();
 
-            StartCoroutine(TypeSentence(sentence));
+            StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
     }
 
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
-        foreach(char letter in sentence.ToCharArray())
+
+        foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
             audioSource.pitch = Random.Range(-0.5f, 3);
@@ -83,8 +80,36 @@ public class DialogueManager : MonoBehaviour
         {
             animator.SetBool("IsOpen", false);
             movement.enabled = true;
+            currentNode = null;
             yield return new WaitForSeconds(0.5f);
             isInteracting = false;
+        }
+    }
+
+    private void EnableButtons()
+    {
+        defaultButton.gameObject.SetActive(true);
+        bOption1.gameObject.SetActive(false);
+        bOption2.gameObject.SetActive(false);
+        bOption3.gameObject.SetActive(false);
+        
+        if (currentNode.Choices.Length != 0)
+        {
+            defaultButton.gameObject.SetActive(false);
+
+            bOption1.gameObject.SetActive(true);
+            bOption1.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[0].ChoicePreview;
+
+            if (currentNode.Choices.Length > 1)
+            {
+                bOption2.gameObject.SetActive(true);
+                bOption2.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[1].ChoicePreview;
+            }
+            if (currentNode.Choices.Length > 2)
+            {
+                bOption3.gameObject.SetActive(true);
+                bOption3.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[2].ChoicePreview;
+            }
         }
     }
 
