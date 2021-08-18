@@ -10,13 +10,25 @@ public abstract class Interactable : MonoBehaviour
     private InputHandler input;
     protected bool inside=false;
 
+    
+
     void Reset()
     {
         GetComponent<BoxCollider2D>().isTrigger = true;
     }
 
     public abstract void Interact();
-    //public abstract void OverLine(bool as);
+    public void OverLine(bool near){
+        Debug.Log("Fuera");
+        if(near){
+            Debug.Log("Dentro");
+             gameObject.GetComponent<Renderer>().sharedMaterial.SetInt("_Colliding", 1);
+             Debug.Log("Cambio");
+        }
+        else{
+            gameObject.GetComponent<Renderer>().sharedMaterial.SetInt("_Colliding", 0);
+        }
+    }
     
     private void OnEnable()
     {
@@ -33,13 +45,13 @@ public abstract class Interactable : MonoBehaviour
     {
         if(col.CompareTag("Player"))
             inside = true;
-            /* OverLine(true) */  
+            OverLine(true);
     }
 
     private void OnTriggerExit2D(Collider2D col)
     {
         if(col.CompareTag("Player"))
             inside = false;
-            /*OverLine(false) */
+            OverLine(false);
     }
 }
