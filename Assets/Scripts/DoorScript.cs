@@ -6,6 +6,8 @@ public class DoorScript : Interactable
 {
     private LevelLoader levelLoader;
     [SerializeField] string targetLevel;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip audioClip;
 
     private void Awake()
     {
@@ -14,7 +16,11 @@ public class DoorScript : Interactable
 
     public override void Interact()
     {
-        levelLoader.LoadLevel(targetLevel);
+        if(inside)
+        {
+            audioSource.PlayOneShot(audioClip);
+            levelLoader.LoadLevel(targetLevel);
+        }
     }
 
     public override void Exit()
