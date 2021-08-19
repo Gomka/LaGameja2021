@@ -20,24 +20,22 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 6703487661008842067, guid: 9978c62b4a0e7cf4fbcd0568c4d8e1c4, type: 3}
-    - time: 0.13333334
       value: {fileID: 8100657595718731531, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
-    - time: 0.26666668
+    - time: 0.13333334
       value: {fileID: 7693077107956105692, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
-    - time: 0.38333333
+    - time: 0.25
       value: {fileID: -4102124623599646074, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
-    - time: 0.51666665
+    - time: 0.38333333
       value: {fileID: 2804550559828367112, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
-    - time: 0.65
+    - time: 0.51666665
       value: {fileID: -6261836212592285338, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
-    - time: 0.78333336
+    - time: 0.65
       value: {fileID: -8804674253010364136, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
-    - time: 0.9
+    - time: 0.76666665
       value: {fileID: 8009414917972472599, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
-    - time: 1.0333333
+    - time: 0.9
       value: {fileID: -290499587586158370, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
-    - time: 1.1666666
+    - time: 1.0333333
       value: {fileID: -6051628131834118195, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
     attribute: m_Sprite
     path: 
@@ -58,7 +56,6 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 6703487661008842067, guid: 9978c62b4a0e7cf4fbcd0568c4d8e1c4, type: 3}
     - {fileID: 8100657595718731531, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
     - {fileID: 7693077107956105692, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
     - {fileID: -4102124623599646074, guid: 3ec37e20151a6d74cb3d35e5b2356a02, type: 3}
@@ -73,7 +70,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1833333
+    m_StopTime: 1.05
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
