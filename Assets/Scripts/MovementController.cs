@@ -29,7 +29,8 @@ public class MovementController : MonoBehaviour
         if(sprinting)
         {
             rb.MovePosition(rb.position + movementDirection * movementSpeed * Time.fixedDeltaTime * sprintingMultiplier);
-        } else
+        } 
+        else
         {
             rb.MovePosition(rb.position + movementDirection * movementSpeed * Time.fixedDeltaTime);
         } 

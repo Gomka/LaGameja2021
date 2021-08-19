@@ -60,6 +60,8 @@ public class DialogueManager : MonoBehaviour
             currentNode = currentNode.Choices[index].ChoiceNode;
             EnableButtons();
 
+            // Stop all coroutines
+
             StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
     }
