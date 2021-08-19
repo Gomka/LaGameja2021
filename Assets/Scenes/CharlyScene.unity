@@ -492,6 +492,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 364102488316952890, guid: 252d9ffdef416e246993e6fcfeca0a89, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4956665
+      objectReference: {fileID: 0}
+    - target: {fileID: 364102488316952890, guid: 252d9ffdef416e246993e6fcfeca0a89, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0083965
+      objectReference: {fileID: 0}
+    - target: {fileID: 364102488316952890, guid: 252d9ffdef416e246993e6fcfeca0a89, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.02
       objectReference: {fileID: 0}
@@ -695,6 +703,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4604839216046752907, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6011284159840096872, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7909038999844802468, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
       propertyPath: npcName
       value: 
@@ -765,6 +781,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7909038999844802471, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695722712548357301, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -862,10 +882,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1704892999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c956a94b59c3f4b4fb403e7aa551e445, type: 3}
+  m_Script: {fileID: 11500000, guid: b2385be30d8d58646923c245cfae7da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: efbed5026335b4944987322109cbd268, type: 2}
+  dialogue:
+  - {fileID: 11400000, guid: 30147b8831349b1439ed0fd85fe988c8, type: 2}
+  - {fileID: 11400000, guid: 9cb31dc95d10a6e4b8fdc7467e529dab, type: 2}
+  - {fileID: 11400000, guid: b3679d9a4e9c4b84eb91096d7c7880a8, type: 2}
+  - {fileID: 11400000, guid: 502281feba2fcd643a11310b102add09, type: 2}
+  - {fileID: 11400000, guid: 3fa09f80102c95741a87c58bf775e9fd, type: 2}
+  - {fileID: 11400000, guid: 368df7eb4ed95ea45a7c1ff3a8c8f932, type: 2}
+  - {fileID: 11400000, guid: 24e6ea0096e52974a8de160bcd475afd, type: 2}
+  - {fileID: 11400000, guid: 6e6f25ccdb279af499ea0d5f948eddc6, type: 2}
+  - {fileID: 11400000, guid: 6ac6120c67d6b9b46b9ecf7dbe549f5f, type: 2}
+  - {fileID: 11400000, guid: a770ed1410671b84d8e9e685a7b1102b, type: 2}
 --- !u!61 &1704893003
 BoxCollider2D:
   m_ObjectHideFlags: 0

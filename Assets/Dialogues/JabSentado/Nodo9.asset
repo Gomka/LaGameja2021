@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fe4b024b82c1b4eb3f1d80702b8e7a, type: 3}
+  m_Name: Nodo9
+  m_EditorClassIdentifier: 
+  m_DialogueLine: "nah ten en cuenta que korea es mucho mas diferente que japon en
+    muchos aspectos, para comenzar en korea si hay un movimiento feminista, y la
+    anterior presidenta (en femenino) abolio la pornografia, exacto, se volvio ilegal
+    de consumir, pero la quitaron despues de no pocos escandalos de diputados que
+    tenian hentai en sus moviles y tal, ademas de que esa misma presidenta a\xF1os
+    despues de presidir tuvo que ir a los tribunales por corrupcion, pero no corrupcion
+    economica como en la mayoria del mundo, sino por corrupcion etica, debido a que
+    se descubrio que esa chavala estaba en una secta oculta de feminismos iluminatis
+    muy chungo"
+  m_Choices:
+  - m_ChoicePreview: "compartir\xE9 tus ense\xF1anzas maestro"
+    m_ChoiceNode: {fileID: 11400000, guid: 1282e6d803eb9eb42b19c867f7885288, type: 2}

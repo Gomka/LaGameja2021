@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fe4b024b82c1b4eb3f1d80702b8e7a, type: 3}
+  m_Name: Nodo4
+  m_EditorClassIdentifier: 
+  m_DialogueLine: "*Se pone las gafas* Ai perdona, t'havia vist m\xE9s jove sense
+    les ulleres."
+  m_Choices:
+  - m_ChoicePreview: Suerte que no aspiro a recepcionista, no me resultaria dificil
+      quitarle el puesto a esas tetas.
+    m_ChoiceNode: {fileID: 11400000, guid: e4da1f57a79bb1e4bb52b5c688ccfc99, type: 2}

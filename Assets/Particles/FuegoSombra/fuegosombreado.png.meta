@@ -169,10 +169,10 @@ TextureImporter:
       name: fuegosombreado_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 7
-        width: 43
-        height: 65
+        x: 0
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: fuegosombreado_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 8
-        width: 44
-        height: 65
+        x: 64
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,10 +211,10 @@ TextureImporter:
       name: fuegosombreado_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 7
-        width: 45
-        height: 66
+        x: 128
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: fuegosombreado_3
       rect:
         serializedVersion: 2
-        x: 201
-        y: 7
-        width: 44
-        height: 66
+        x: 192
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: fuegosombreado_4
       rect:
         serializedVersion: 2
-        x: 266
-        y: 7
-        width: 44
-        height: 66
+        x: 256
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,10 +274,10 @@ TextureImporter:
       name: fuegosombreado_5
       rect:
         serializedVersion: 2
-        x: 331
-        y: 7
-        width: 44
-        height: 66
+        x: 320
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: fuegosombreado_6
       rect:
         serializedVersion: 2
-        x: 396
-        y: 7
-        width: 43
-        height: 66
+        x: 384
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: fuegosombreado_7
       rect:
         serializedVersion: 2
-        x: 460
-        y: 8
-        width: 47
-        height: 69
+        x: 448
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,10 +337,10 @@ TextureImporter:
       name: fuegosombreado_8
       rect:
         serializedVersion: 2
-        x: 525
-        y: 8
-        width: 45
-        height: 71
+        x: 512
+        y: 0
+        width: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -25,18 +25,38 @@ public class FollowingShadow : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position,targetPlayer.position,speed* Time.deltaTime);
                 
         }
-        if(Vector2.Distance(transform.position, targetPlayer.position) < distance-1)
+        else if(Vector2.Distance(transform.position, targetPlayer.position) < distance-1)
         {
             transform.position = Vector2.MoveTowards(transform.position,Vector2.Reflect(targetPlayer.position,new Vector2 (targetPlayer.position.y,targetPlayer.position.x)),speed* Time.deltaTime);
                 
         }
+        else{
+        ar.SetFloat("Speed", 0f);
+       }
         
     }
     
     void FixedUpdate(){
-       
-        
-
-    
+        Vector3 movement=transform.position-targetPlayer.position;
+       if(movement.x >0 && movement.x>movement.y){
+        ar.SetFloat("Horizontal",-1f);
+        ar.SetFloat("Vertical", 0f);
+        ar.SetFloat("Speed", movement.sqrMagnitude);
+       }
+       else if(movement.x <0 && movement.x<movement.y){
+        ar.SetFloat("Horizontal",1f);
+        ar.SetFloat("Vertical", 0f);
+        ar.SetFloat("Speed", movement.sqrMagnitude);   
+       }
+       else if(movement.y >0 && movement.y>movement.x){
+        ar.SetFloat("Horizontal",0f);
+        ar.SetFloat("Vertical", -1f);
+        ar.SetFloat("Speed", movement.sqrMagnitude); 
+       }
+       else if(movement.y <0 && movement.y<movement.x){
+        ar.SetFloat("Horizontal",0f);
+        ar.SetFloat("Vertical", 1f);
+        ar.SetFloat("Speed", movement.sqrMagnitude); 
+       }
     }
 }

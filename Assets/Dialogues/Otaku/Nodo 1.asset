@@ -15,4 +15,4 @@ MonoBehaviour:
   m_DialogueLine: '*te observa * '
   m_Choices:
   - m_ChoicePreview: "\xBFTu miras anime?\xBFHas visto Re:Zero?"
-    m_ChoiceNode: {fileID: 0}
+    m_ChoiceNode: {fileID: 11400000, guid: c620bcb0564ef404caa35793aed51ba5, type: 2}
