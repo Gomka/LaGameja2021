@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bba9511a38fc5a4b962dee24dab94a3, type: 3}
-  m_Name: Initial1Rob
+  m_Name: DialogoMesa
   m_EditorClassIdentifier: 
-  m_NPCName: Rob
-  m_NPCVoice: {fileID: 8300000, guid: d0e71224adfe709459de5676fa161299, type: 3}
-  m_FirstNode: {fileID: 11400000, guid: 6adf796f823ef394faba8de614e5a5c0, type: 2}
+  m_NPCName: Lil Nasty
+  m_NPCVoice: {fileID: 8300000, guid: 588ae5215cc18294f96889b997a562dd, type: 3}
+  m_FirstNode: {fileID: 11400000, guid: be1d407f54fd01043abcda2c91c83117, type: 2}
   m_Portrait: {fileID: 21300000, guid: fdea4d57a3f818944bc2128fee559131, type: 3}

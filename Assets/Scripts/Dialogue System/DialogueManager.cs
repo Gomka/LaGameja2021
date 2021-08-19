@@ -75,7 +75,7 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             audioSource.pitch = Random.Range(-0.5f, 3);
             audioSource.Play();
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.03f);
         }
     }
 
@@ -86,8 +86,8 @@ public class DialogueManager : MonoBehaviour
             animator.SetBool("IsOpen", false);
             movement.enabled = true;
             currentNode = null;
-            yield return new WaitForSeconds(0.5f);
             isInteracting = false;
+            yield return new WaitForSeconds(0.5f);
         }
     }
 
