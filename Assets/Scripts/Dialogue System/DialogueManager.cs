@@ -89,6 +89,7 @@ public class DialogueManager : MonoBehaviour
     private void EnableButtons()
     {
         defaultButton.gameObject.SetActive(true);
+        defaultButton.Select();
         bOption1.gameObject.SetActive(false);
         bOption2.gameObject.SetActive(false);
         bOption3.gameObject.SetActive(false);
@@ -99,6 +100,7 @@ public class DialogueManager : MonoBehaviour
 
             bOption1.gameObject.SetActive(true);
             bOption1.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = currentNode.Choices[0].ChoicePreview;
+            bOption1.Select();
 
             if (currentNode.Choices.Length > 1)
             {
