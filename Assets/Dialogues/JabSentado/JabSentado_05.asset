@@ -15,3 +15,4 @@ MonoBehaviour:
   m_NPCName: JabSentado
   m_NPCVoice: {fileID: 8300000, guid: 211593e0840548d49b52f8767707ffb5, type: 3}
   m_FirstNode: {fileID: 11400000, guid: e63cf15859b8ffd4aa65978fb44e2502, type: 2}
+  m_Portrait: {fileID: 21300000, guid: 6763ee22d0e86be48bebc44405e1691d, type: 3}
