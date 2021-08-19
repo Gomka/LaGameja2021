@@ -5,17 +5,19 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TextMeshProUGUI npcName, dialogueText;
+    [SerializeField] private TextMeshProUGUI npcName, dialogueText;
 
     private DialogueNode currentNode;
 
     private AudioSource audioSource;
 
-    public Animator animator;
+    [SerializeField] private Animator animator;
 
     public bool isInteracting = false;
 
     private MovementController movement;
+
+    [SerializeField] private Image portrait;
 
     [SerializeField] private Button defaultButton, bOption1, bOption2, bOption3;
 
@@ -37,6 +39,7 @@ public class DialogueManager : MonoBehaviour
             currentNode = dialogue.FirstNode;
             npcName.text = dialogue.NPCName;
             audioSource.clip = dialogue.NPCVoice;
+            portrait.sprite = dialogue.Portrait;
 
             EnableButtons();
 
