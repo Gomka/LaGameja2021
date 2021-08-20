@@ -30,6 +30,12 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenasFinales/Aula_02.unity
     guid: 440dda31ad7d85c43932086846d116df
   - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Despacho_Sesa.unity
+    guid: 986d340987f91834cb3269b077042aed
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/DespachoRandom.unity
+    guid: 659441a0cb2408b4f80148e4f6c0fc53
+  - enabled: 1
     path: Assets/Scenes/EscenasFinales/Aula_03.unity
     guid: 7322a1fb59dc45944b4f28e2f92e38c0
   - enabled: 1

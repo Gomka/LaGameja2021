@@ -184,7 +184,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.027404666, y: -2.0781858}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +195,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 5}
+  m_Size: {x: 1.4787724, y: 0.8436284}
   m_EdgeRadius: 0
 --- !u!212 &64393023
 SpriteRenderer:
@@ -576,7 +576,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3085228740401346046, guid: 83733ebc773302244971be4d3cde90e6, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3085228740401346046, guid: 83733ebc773302244971be4d3cde90e6, type: 3}
       propertyPath: m_LocalScale.x
@@ -1042,7 +1042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1384,7 +1384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2238009927503516091, guid: 46b517d1b5dd3bf4e8253c021f99e2f5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2238009927503516091, guid: 46b517d1b5dd3bf4e8253c021f99e2f5, type: 3}
       propertyPath: m_LocalScale.x
@@ -1531,7 +1531,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4515009692386000500, guid: fa5fac682476afa42af7cf7193b432ff, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4515009692386000500, guid: fa5fac682476afa42af7cf7193b432ff, type: 3}
       propertyPath: m_LocalPosition.x
