@@ -11,13 +11,12 @@ public class MovementController : MonoBehaviour
     private bool sprinting = false;
     public float movementSpeed = 5f, sprintingMultiplier = 1.5f;
 
-    public ParticleSystem dust;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         ar = GetComponent<Animator>();
-        dust = GetComponent<ParticleSystem>();
+    
     }
 
     void Update()
@@ -94,9 +93,5 @@ public class MovementController : MonoBehaviour
         sprinting = false;
         movementDirection = new Vector2(0, 0);
         ar.SetFloat("Speed", 0);
-    }
-
-    public void CreateDust(){
-        dust.Play();
     }
 }
