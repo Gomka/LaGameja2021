@@ -4876,7 +4876,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -4700062621090160446, guid: 4e24b0baf50d92a40a667fab031e33f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4936,6 +4936,7 @@ GameObject:
   - component: {fileID: 1488648010571393070}
   - component: {fileID: 1335632551}
   - component: {fileID: 1335632553}
+  - component: {fileID: 2178365587059816382}
   - component: {fileID: 4118489304692950554}
   m_Layer: 0
   m_Name: ShadowBalito
@@ -5275,6 +5276,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b861c57f098644b47a5ccee0eed57e1b, type: 3}
   - {fileID: 8300000, guid: 31db75c6509f8fd4d8ceeef72a4e1c88, type: 3}
   dust: {fileID: 2144171892}
+--- !u!114 &2178365587059816382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3200286807855990732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e71868a4fb64c04280204b3cf76a3c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &4118489304692950554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5310,6 +5323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6731714941566465375}
+  - component: {fileID: 3172502157914951866}
   m_Layer: 0
   m_Name: ShadowBalito
   m_TagString: Untagged
@@ -5333,3 +5347,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3172502157914951866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5712773880620546583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e71868a4fb64c04280204b3cf76a3c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
