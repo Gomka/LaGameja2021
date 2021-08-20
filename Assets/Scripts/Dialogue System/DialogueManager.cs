@@ -51,7 +51,7 @@ public class DialogueManager : MonoBehaviour
     {
         if(isInteracting)
         {
-            if (currentNode.Choices.Length == 0)
+            if (currentNode == null || currentNode.Choices.Length == 0)
             {
                 StartCoroutine(EndDialogue());
                 return;
@@ -60,7 +60,7 @@ public class DialogueManager : MonoBehaviour
             currentNode = currentNode.Choices[index].ChoiceNode;
             EnableButtons();
 
-            // Stop all coroutines
+            // Stop all coroutines (non-chaos mode)
 
             StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
@@ -86,8 +86,8 @@ public class DialogueManager : MonoBehaviour
             animator.SetBool("IsOpen", false);
             movement.enabled = true;
             currentNode = null;
-            isInteracting = false;
             yield return new WaitForSeconds(0.5f);
+            isInteracting = false;
         }
     }
 
