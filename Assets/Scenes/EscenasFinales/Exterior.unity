@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ed5d2a8b261104b8f253cca8d4ee4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLevel: Pasillo
+  targetLevel: Recepcion
   audioSource: {fileID: 733403618}
   audioClip: {fileID: 8300000, guid: 2a32eb906fa4905468cba965a01e9428, type: 3}
 --- !u!61 &733403617
@@ -1091,7 +1091,8 @@ PolygonCollider2D:
       - {x: -4.2824173, y: 10.631236}
     - - {x: -0.890625, y: 10.46875}
       - {x: -1.296875, y: 10.96875}
-      - {x: -2.015625, y: 11.65625}
+      - {x: -1.9417988, y: 12.671676}
+      - {x: -1.9490792, y: 11.868334}
       - {x: -2.66686, y: 11.5914755}
       - {x: -2.2130346, y: 11.425316}
       - {x: -2.608848, y: 10.349639}
@@ -1101,6 +1102,7 @@ PolygonCollider2D:
       - {x: -1.984375, y: 9.5}
       - {x: -1.828125, y: 9.53125}
       - {x: -0.984375, y: 9.78125}
+      - {x: 1.5421896, y: 9.728561}
       - {x: -0.828125, y: 10.3125}
       - {x: -0.828125, y: 10.4375}
 --- !u!61 &763450168
@@ -1959,7 +1961,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.847289, y: 9.5876465}
+  m_Offset: {x: 7.847289, y: 9.601485}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1970,7 +1972,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 14.649172, y: 5.699707}
+  m_Size: {x: 14.649172, y: 5.727385}
   m_EdgeRadius: 0
 --- !u!1 &1306935985
 GameObject:
@@ -2301,7 +2303,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.9164753, y: 15.941752}
+  m_Offset: {x: 2.9164753, y: 15.905541}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2312,7 +2314,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 30.757935, y: 0.75284386}
+  m_Size: {x: 30.757935, y: 0.8252659}
   m_EdgeRadius: 0
 --- !u!61 &1512453693
 BoxCollider2D:
@@ -3260,11 +3262,11 @@ PrefabInstance:
       objectReference: {fileID: 1044365994}
     - target: {fileID: 6710628962620924541, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5700002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6710628962620924541, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3800001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6762013895710910618, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_RenderPostProcessing
@@ -3276,11 +3278,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3200002
+      value: -3.8700001
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.04
+      value: -7.2
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.z
