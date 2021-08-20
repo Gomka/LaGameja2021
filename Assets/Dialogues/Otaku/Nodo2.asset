@@ -15,9 +15,9 @@ MonoBehaviour:
   m_DialogueLine: "Tengo un gusto m\xE1s refinado en animes como, por ejemplo, Redo
     of Healer. Adem\xE1s, ese personaje, Rem creo que se llama, est\xE1 muy mal dise\xF1ado."
   m_Choices:
-  - m_ChoicePreview: "CoMo qUe rEM esT\xC1 mAl DiSe\xD1aDa?"
-    m_ChoiceNode: {fileID: 11400000, guid: e97c15c0ea381c143a6586f9ffcf5e05, type: 2}
   - m_ChoicePreview: "Wtf... Redo of Healer?\xBFHan sacado nuevos episodios?"
     m_ChoiceNode: {fileID: 11400000, guid: 7d452127d0b6c2b43a7e0ccdd221a759, type: 2}
+  - m_ChoicePreview: "CoMo qUe rEM esT\xC1 mAl DiSe\xD1aDa?"
+    m_ChoiceNode: {fileID: 11400000, guid: e97c15c0ea381c143a6586f9ffcf5e05, type: 2}
   - m_ChoicePreview: '*le escupe*'
     m_ChoiceNode: {fileID: 11400000, guid: afc7f525f67a64042805693a7000bd59, type: 2}
