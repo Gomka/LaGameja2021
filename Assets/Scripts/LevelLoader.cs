@@ -36,13 +36,13 @@ public class LevelLoader : MonoBehaviour
 
     private void LoadCurrentCoords(string sceneName)
     {
-        if(PlayerPrefs.GetInt(sceneName) == 1)
+        if(PlayerPrefs.GetInt(sceneName) == -5)
         {
             player.position = new Vector3(PlayerPrefs.GetFloat(sceneName + "X"), PlayerPrefs.GetFloat(sceneName + "Y"), PlayerPrefs.GetFloat(sceneName + "Z"));
         } 
         else
         {
-            PlayerPrefs.SetInt(sceneName, 1);
+            PlayerPrefs.SetInt(sceneName, -5);
         }
 
     }
