@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1fe4b024b82c1b4eb3f1d80702b8e7a, type: 3}
-  m_Name: Nodo4
+  m_Name: Nodo1
   m_EditorClassIdentifier: 
-  m_DialogueLine: "*Se pone las gafas* Ai perdona, t'havia vist m\xE9s jove sense
-    les ulleres."
+  m_DialogueLine: 'Ni un paso mas o te denuncio por acoso sexual
+
+'
   m_Choices:
-  - m_ChoicePreview: Golosas teturcias
-    m_ChoiceNode: {fileID: 11400000, guid: e4da1f57a79bb1e4bb52b5c688ccfc99, type: 2}
+  - m_ChoicePreview: '* cums *'
+    m_ChoiceNode: {fileID: 11400000, guid: 8a514dc9ae8d29549b83e7c0adbdda33, type: 2}
