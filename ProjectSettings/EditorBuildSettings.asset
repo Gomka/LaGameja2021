@@ -12,8 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenasFinales/MainMenu.unity
     guid: 8059349e5986b424d9451019285d05ff
   - enabled: 1
+    path: Assets/Scenes/EscenasFinales/ExteriorTutorial.unity
+    guid: 8e4e9537f7f2c384da3f5d2be3d71653
+  - enabled: 1
     path: Assets/Scenes/EscenasFinales/Exterior.unity
     guid: 2220e7d846bf0504da4f80f0bba84565
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Recepcion.unity
+    guid: cae4d16ce4f33b643bec2c5129c67d62
   - enabled: 1
     path: Assets/Scenes/EscenasFinales/Pasillo.unity
     guid: 43760a7c5585fcc4cb57ab95b42f1b78
