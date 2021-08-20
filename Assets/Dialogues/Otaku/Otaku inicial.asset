@@ -15,3 +15,4 @@ MonoBehaviour:
   m_NPCName: Otaku
   m_NPCVoice: {fileID: 8300000, guid: 211593e0840548d49b52f8767707ffb5, type: 3}
   m_FirstNode: {fileID: 11400000, guid: 4cf27398541058d43a1038f50de4207f, type: 2}
+  m_Portrait: {fileID: 21300000, guid: b489b192958d4354794736f45dc661c7, type: 3}

@@ -15,3 +15,4 @@ MonoBehaviour:
   m_NPCName: "Picard\xEDaRemastered"
   m_NPCVoice: {fileID: 8300000, guid: e7235adfaa6608747a415a0ef3f5c62b, type: 3}
   m_FirstNode: {fileID: 11400000, guid: 0c4d4ba041d54df48bcd7b386c5d17c8, type: 2}
+  m_Portrait: {fileID: 21300000, guid: 501129a645aadea42a16fbab079b70ed, type: 3}
