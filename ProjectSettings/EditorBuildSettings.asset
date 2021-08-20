@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EscenasFinales/Escaleras.unity
     guid: eeace1b44e4454240bf6c893ac755c8e
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Lavabo.unity
+    guid: 187906dc9876e784789a0d10c30dced3
   m_configObjects: {}
