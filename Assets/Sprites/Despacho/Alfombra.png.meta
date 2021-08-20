@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 75fcb32cec3c9d14abf4c359160b2afe
+guid: fee72bc25732d8144865053d4f18de56
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 2
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -46,7 +46,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 34
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,28 +139,12 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline:
-    - - {x: 12, y: 78}
-      - {x: 12, y: 77}
-      - {x: -9, y: 77}
-      - {x: -9, y: 78}
-      - {x: -15, y: 78}
-      - {x: -15, y: 64}
-      - {x: -13, y: 62}
-      - {x: -13, y: 52}
-      - {x: -15, y: 49.988266}
-      - {x: -15, y: 39}
-      - {x: -12, y: 39}
-      - {x: -12, y: 41}
-      - {x: -11, y: 42}
-      - {x: 14, y: 42}
-      - {x: 15, y: 41}
-      - {x: 15, y: 39}
-      - {x: 18, y: 39}
-      - {x: 18, y: 50}
-      - {x: 16, y: 52}
-      - {x: 16, y: 62}
-      - {x: 18.337662, y: 64.4935}
-      - {x: 18, y: 78}
+    - - {x: -13, y: -69}
+      - {x: -13, y: -80}
+      - {x: 14, y: -80}
+      - {x: 14, y: -69}
+      - {x: 13, y: -68}
+      - {x: -12, y: -68}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
