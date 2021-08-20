@@ -4936,6 +4936,7 @@ GameObject:
   - component: {fileID: 1488648010571393070}
   - component: {fileID: 1335632551}
   - component: {fileID: 1335632553}
+  - component: {fileID: 4118489304692950554}
   m_Layer: 0
   m_Name: ShadowBalito
   m_TagString: Player
@@ -5274,6 +5275,32 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b861c57f098644b47a5ccee0eed57e1b, type: 3}
   - {fileID: 8300000, guid: 31db75c6509f8fd4d8ceeef72a4e1c88, type: 3}
   dust: {fileID: 2144171892}
+--- !u!61 &4118489304692950554
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3200286807855990732}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0032014847, y: -0.070423245}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1.53125}
+    newSize: {x: 1, y: 1.53125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8143387, y: 1.2751648}
+  m_EdgeRadius: 0
 --- !u!1 &5712773880620546583
 GameObject:
   m_ObjectHideFlags: 0

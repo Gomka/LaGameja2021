@@ -25,7 +25,7 @@ public class FollowingShadow : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position,targetPlayer.position,speed* Time.deltaTime);
                 
         }
-        else if(Vector2.Distance(transform.position, targetPlayer.position) < distance-1)
+        else if(Vector2.Distance(transform.position, targetPlayer.position) < distance-0.5)
         {
             transform.position = Vector2.MoveTowards(transform.position,Vector2.Reflect(targetPlayer.position,new Vector2 (targetPlayer.position.y,targetPlayer.position.x)),speed* Time.deltaTime);
                 
