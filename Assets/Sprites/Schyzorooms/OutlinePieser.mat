@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OutlineSesa
+  m_Name: OutlinePieser
   m_Shader: {fileID: -6465566751694194690, guid: 2df39fdc519555c44bd59f28b044307a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -37,7 +37,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Colliding: 1
-    - _Grosor: 2
+    - _Grosor: 1
     m_Colors:
-    - _Color: {r: 16, g: 16, b: 16, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
