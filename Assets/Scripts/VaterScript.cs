@@ -31,6 +31,6 @@ public class VaterScript : Interactable
     IEnumerator PlayToiletAnim()
     {
         yield return new WaitForSeconds(0.5f);
-        levelLoader.LoadLevel("SchizoRoom1");
+        levelLoader.LoadLevel("SR_Vater1");
     }
 }
