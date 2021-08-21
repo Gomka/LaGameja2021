@@ -4,5 +4,80 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_Run.unity
+    guid: d3037c3769e4f574284fd1cc27dd357d
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_Brillo.unity
+    guid: 08a15ecc601af0946b278c7caf81b342
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_Caretter.unity
+    guid: 556885a2cdc14da4e98e2b462c608924
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_Cheguei.unity
+    guid: eeeb9b57cf57af14ca3a5ddadd35f847
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_CuartoOscuro.unity
+    guid: 9603fd3de063a034dbf8d434008a21a5
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_Manosetter.unity
+    guid: 0068abe2b81d7be41b9c4610d0c9473c
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_Ojetter.unity
+    guid: ae793a2d812237f4da2c20178e50e618
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_Pieser.unity
+    guid: 2ba70532b894daf4393d420b91e39206
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Aula_01.unity
+    guid: 362abc65283ec5349b44858bb22fc7a6
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Aula_02.unity
+    guid: 440dda31ad7d85c43932086846d116df
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Aula_03.unity
+    guid: 7322a1fb59dc45944b4f28e2f92e38c0
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Despacho_Sesa.unity
+    guid: 986d340987f91834cb3269b077042aed
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/DespachoRandom.unity
+    guid: 659441a0cb2408b4f80148e4f6c0fc53
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Escaleras.unity
+    guid: eeace1b44e4454240bf6c893ac755c8e
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Exterior.unity
+    guid: 2220e7d846bf0504da4f80f0bba84565
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/ExteriorFinal.unity
+    guid: b489f08347bc7de47b4c2ae17f577cf1
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/ExteriorTutorial.unity
+    guid: 8e4e9537f7f2c384da3f5d2be3d71653
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Fleshyhab1.unity
+    guid: 227a20c535f520f459260b2140d460da
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/FleshyJab.unity
+    guid: 717e41be2b49c50419331ff4dc6e24ed
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/FleshyPasillo.unity
+    guid: 28f1e87bee618c8458dc6b3463c3bc47
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Lavabo.unity
+    guid: 187906dc9876e784789a0d10c30dced3
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/MainMenu.unity
+    guid: 8059349e5986b424d9451019285d05ff
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Pasillo.unity
+    guid: 43760a7c5585fcc4cb57ab95b42f1b78
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/Recepcion.unity
+    guid: cae4d16ce4f33b643bec2c5129c67d62
+  - enabled: 1
+    path: Assets/Scenes/EscenasFinales/RemRoom.unity
+    guid: 7336ab3c7e53c834b99ab2913bf790ce
   m_configObjects: {}
