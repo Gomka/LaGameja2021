@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.VFX;
 public class EndGame : Interactable
 {
     [SerializeField] private GameObject player;
     private LevelLoader levelLoader;
     private Animator animator;
-    [SerializeField] Animator postproAnimator, endCreditsAnimator;
+    [SerializeField] Animator postproAnimator, endCreditsAnimator,arbolAnimator;
     private MovementController movement;
     public Dialogue dialogue;
     private DialogueManager dManager;
@@ -15,7 +14,7 @@ public class EndGame : Interactable
     private bool endCredits = false;
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip clip;
-    [SerializeField] VisualEffect particulas;
+    
 
     private void Start()
     {
@@ -51,12 +50,8 @@ public class EndGame : Interactable
     {
 
         yield return new WaitForSeconds(2);
-        particulas.Play();
         postproAnimator.SetTrigger("Normal");
-        foreach(GameObject go in arbol)
-        {
-            go.SetActive(true);
-        }
+        arbolAnimator.SetTrigger("Transform");
         player.layer = 0;
         endCreditsAnimator.SetTrigger("End");
         StartCoroutine(WaitForEndCreditsEnd());
