@@ -16,7 +16,6 @@ public class EndGame : Interactable
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip clip;
 
-
     private void Start()
     {
         levelLoader = FindObjectOfType<LevelLoader>();

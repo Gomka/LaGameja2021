@@ -62,8 +62,6 @@ public class DialogueManager : MonoBehaviour
             currentNode = currentNode.Choices[index].ChoiceNode;
             EnableButtons();
 
-            // Stop all coroutines (non-chaos mode)
-
             dialogueCoroutine = StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
     }

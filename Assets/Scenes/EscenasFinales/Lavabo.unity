@@ -308,6 +308,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 70405550}
+  clip: {fileID: 8300000, guid: 2dc763790baf13b419fb75c8eb72e66a, type: 3}
+  source: {fileID: 1072399773}
 --- !u!61 &86231283
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1014,6 +1016,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1072399773 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5994595856807680300, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
+  m_PrefabInstance: {fileID: 389962474}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1108181866
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OutlineGeneral
-  m_Shader: {fileID: -6465566751694194690, guid: 2df39fdc519555c44bd59f28b044307a, type: 3}
+  m_Name: DissolveBlood
+  m_Shader: {fileID: -6465566751694194690, guid: 27450bb840289fd4fbb3600f43fcfd97, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d2701f87076741d4e8732cb583aa2b4b, type: 3}
+        m_Texture: {fileID: 2800000, guid: f608144f5ba761741848cea75372f403, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -36,8 +36,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Colliding: 1
-    - _Grosor: 0.3
+    - _Fade: 0.4
+    - _Scale: 40
     m_Colors:
-    - _Color: {r: 16, g: 16, b: 16, a: 1}
+    - Color_064a3758771b4f2da8e93978b215b32d: {r: 0.7882804, g: 0, b: 2.64151, a: 0}
   m_BuildTextureStacks: []

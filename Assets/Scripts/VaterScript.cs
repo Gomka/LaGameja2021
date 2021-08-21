@@ -4,6 +4,8 @@ using UnityEngine;
 public class VaterScript : Interactable
 {
     [SerializeField] private GameObject player;
+    [SerializeField] private AudioClip clip;
+    [SerializeField] private AudioSource source;
     private LevelLoader levelLoader;
     private Animator animator;
 
@@ -19,6 +21,7 @@ public class VaterScript : Interactable
         {
             player.SetActive(false);
             animator.SetTrigger("Start");
+            source.PlayOneShot(clip);
             StartCoroutine(PlayToiletAnim());
         }
     }
