@@ -17,6 +17,8 @@ public class DialogueManager : MonoBehaviour
 
     private MovementController movement;
 
+    private Coroutine dialogueCoroutine;
+
     [SerializeField] private Image portrait;
 
     [SerializeField] private Button defaultButton, bOption1, bOption2, bOption3;
@@ -43,7 +45,7 @@ public class DialogueManager : MonoBehaviour
 
             EnableButtons();
 
-            StartCoroutine(TypeSentence(currentNode.dialogueLine));
+            dialogueCoroutine = StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
     }
 
@@ -62,7 +64,7 @@ public class DialogueManager : MonoBehaviour
 
             // Stop all coroutines (non-chaos mode)
 
-            StartCoroutine(TypeSentence(currentNode.dialogueLine));
+            dialogueCoroutine = StartCoroutine(TypeSentence(currentNode.dialogueLine));
         }
     }
 
@@ -86,7 +88,9 @@ public class DialogueManager : MonoBehaviour
             animator.SetBool("IsOpen", false);
             movement.enabled = true;
             currentNode = null;
+            if(dialogueCoroutine != null) StopCoroutine(dialogueCoroutine);
             yield return new WaitForSeconds(0.5f);
+            dialogueText.text = "";
             isInteracting = false;
         }
     }

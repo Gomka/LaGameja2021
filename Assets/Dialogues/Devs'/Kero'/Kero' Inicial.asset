@@ -15,4 +15,4 @@ MonoBehaviour:
   m_NPCName: Kero'
   m_NPCVoice: {fileID: 8300000, guid: b9ede5f3e9b26a8459750da6e0c6166d, type: 3}
   m_FirstNode: {fileID: 11400000, guid: e7876b1fa8b7ba54181dc0e859d6840a, type: 2}
-  m_Portrait: {fileID: -3069564340549496394, guid: b9ea1f3c45516e446859e24eccedd282, type: 3}
+  m_Portrait: {fileID: 21300000, guid: 185f45e12ce6bc64a91b05fec606f228, type: 3}

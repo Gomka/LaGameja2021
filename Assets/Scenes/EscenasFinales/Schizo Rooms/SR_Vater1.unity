@@ -317,7 +317,19 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 406296013}
+  - {fileID: 256079073}
+  - {fileID: 1474010771}
+  - {fileID: 478834633}
+  - {fileID: 2077438971}
+  - {fileID: 1889848954}
+  - {fileID: 904260271}
+  - {fileID: 1838963140}
+  - {fileID: 1976470991}
+  - {fileID: 355615697}
+  - {fileID: 1126349748}
+  - {fileID: 658503953}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -350,11 +362,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256079072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 3, z: 0}
+  m_LocalPosition: {x: -7, y: 3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 3
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &256079074
 CircleCollider2D:
@@ -509,11 +521,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355615696}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: -3, z: 0}
+  m_LocalPosition: {x: -1, y: -3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 11
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &355615698
 CircleCollider2D:
@@ -668,11 +680,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406296012}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 3, z: 0}
+  m_LocalPosition: {x: -5, y: 3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 2
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &406296014
 CircleCollider2D:
@@ -827,11 +839,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478834632}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 3, z: 0}
+  m_LocalPosition: {x: -1, y: 3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 5
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &478834634
 CircleCollider2D:
@@ -1124,11 +1136,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658503952}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: -3, z: 0}
+  m_LocalPosition: {x: 3, y: -3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 13
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &658503954
 CircleCollider2D:
@@ -1348,11 +1360,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904260270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: -3, z: 0}
+  m_LocalPosition: {x: -9, y: -3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 8
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &904260272
 CircleCollider2D:
@@ -1568,11 +1580,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126349747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: -3, z: 0}
+  m_LocalPosition: {x: 1, y: -3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 12
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1126349749
 CircleCollider2D:
@@ -1727,18 +1739,6 @@ Transform:
   m_Children:
   - {fileID: 2061470936}
   - {fileID: 1655290738}
-  - {fileID: 406296013}
-  - {fileID: 256079073}
-  - {fileID: 1474010771}
-  - {fileID: 478834633}
-  - {fileID: 2077438971}
-  - {fileID: 1889848954}
-  - {fileID: 904260271}
-  - {fileID: 1838963140}
-  - {fileID: 1976470991}
-  - {fileID: 355615697}
-  - {fileID: 1126349748}
-  - {fileID: 658503953}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1819,11 +1819,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474010770}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: 3, z: 0}
+  m_LocalPosition: {x: -9, y: 3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 4
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1474010772
 CircleCollider2D:
@@ -2036,7 +2036,7 @@ GameObject:
   - component: {fileID: 1655290740}
   - component: {fileID: 1655290739}
   m_Layer: 0
-  m_Name: PuertaPieser
+  m_Name: Puerta2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2164,7 +2164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ed5d2a8b261104b8f253cca8d4ee4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLevel: Schizoroom Pieser
+  targetLevel: SR_Run
   audioSource: {fileID: 1655290739}
   audioClip: {fileID: 8300000, guid: 500851d09f13b1e408549a34c6663309, type: 3}
 --- !u!61 &1655290741
@@ -2330,11 +2330,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838963139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: -3, z: 0}
+  m_LocalPosition: {x: -7, y: -3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 9
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1838963141
 CircleCollider2D:
@@ -2489,11 +2489,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889848953}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 3, z: 0}
+  m_LocalPosition: {x: 3, y: 3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 7
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1889848955
 CircleCollider2D:
@@ -2775,11 +2775,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976470990}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: -3, z: 0}
+  m_LocalPosition: {x: -5, y: -3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 10
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1976470992
 CircleCollider2D:
@@ -2919,7 +2919,7 @@ GameObject:
   - component: {fileID: 2061470938}
   - component: {fileID: 2061470937}
   m_Layer: 0
-  m_Name: PuertaRun
+  m_Name: Puerta1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3047,7 +3047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ed5d2a8b261104b8f253cca8d4ee4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLevel: Schizoroom Run
+  targetLevel: SR_Run
   audioSource: {fileID: 2061470937}
   audioClip: {fileID: 8300000, guid: 500851d09f13b1e408549a34c6663309, type: 3}
 --- !u!61 &2061470939
@@ -3156,11 +3156,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077438970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 3, z: 0}
+  m_LocalPosition: {x: 1, y: 3, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 1159197891}
-  m_RootOrder: 6
+  m_Father: {fileID: 247999031}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &2077438972
 CircleCollider2D:

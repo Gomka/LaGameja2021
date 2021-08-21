@@ -15,4 +15,4 @@ MonoBehaviour:
   m_NPCName: Carlo'
   m_NPCVoice: {fileID: 8300000, guid: d43f763f3b1710049bce63c7d1b0b235, type: 3}
   m_FirstNode: {fileID: 11400000, guid: 4adb7a2a9badff646979d1c822b5cb6e, type: 2}
-  m_Portrait: {fileID: 2087426227050832008, guid: e6d083b433c4be14190928b528a1b3ab, type: 3}
+  m_Portrait: {fileID: 21300000, guid: b11c8774647ba5c4bb36753b92c1b1cb, type: 3}
