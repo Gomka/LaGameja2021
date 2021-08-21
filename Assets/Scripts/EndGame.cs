@@ -1,20 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
 public class EndGame : Interactable
 {
     [SerializeField] private GameObject player;
+    [SerializeField] Animator postproAnimator, endCreditsAnimator, arbolAnimator;
+    [SerializeField] GameObject[] arbol;
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip clip;
     private LevelLoader levelLoader;
     private Animator animator;
-    [SerializeField] Animator postproAnimator, endCreditsAnimator,arbolAnimator;
     private MovementController movement;
     public Dialogue dialogue;
     private DialogueManager dManager;
-    [SerializeField] GameObject[] arbol;
     private bool endCredits = false;
-    [SerializeField] AudioSource audioSource;
-    [SerializeField] AudioClip clip;
-    
 
     private void Start()
     {

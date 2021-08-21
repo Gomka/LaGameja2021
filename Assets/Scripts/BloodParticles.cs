@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class BloodParticles : MonoBehaviour
 {
-    private ParticleSystem blood;
+    [SerializeField] private ParticleSystem blood;
     [SerializeField] private AudioClip clip;
     private AudioSource source;
 
     void Start()
     {
-        blood = GetComponent<ParticleSystem>();
         source = GetComponent<AudioSource>();
     }
 
