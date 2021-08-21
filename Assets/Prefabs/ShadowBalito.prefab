@@ -5271,10 +5271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footsteps:
-  - {fileID: 8300000, guid: 8136a080c8d163744924744f51beee70, type: 3}
-  - {fileID: 8300000, guid: 86d6f7cff1cb8f641b90c0c4c2df163b, type: 3}
-  - {fileID: 8300000, guid: b861c57f098644b47a5ccee0eed57e1b, type: 3}
-  - {fileID: 8300000, guid: 31db75c6509f8fd4d8ceeef72a4e1c88, type: 3}
+  - {fileID: 8300000, guid: 70cf7585c0756d0499f80914e0b28c28, type: 3}
   dust: {fileID: 2144171892}
 --- !u!114 &2178365587059816382
 MonoBehaviour:
