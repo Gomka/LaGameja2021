@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.VFX;
 public class EndGame : Interactable
 {
     [SerializeField] private GameObject player;
@@ -15,6 +15,7 @@ public class EndGame : Interactable
     private bool endCredits = false;
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip clip;
+    [SerializeField] VisualEffect particulas;
 
     private void Start()
     {
@@ -48,7 +49,9 @@ public class EndGame : Interactable
 
     IEnumerator Pastillas()
     {
+
         yield return new WaitForSeconds(2);
+        particulas.Play();
         postproAnimator.SetTrigger("Normal");
         foreach(GameObject go in arbol)
         {
