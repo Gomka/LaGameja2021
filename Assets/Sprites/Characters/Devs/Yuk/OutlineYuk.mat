@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Colliding: 1
+    - _Colliding: 0
     - _Grosor: 3
     m_Colors:
     - _Color: {r: 21.361254, g: 13.187894, b: 0, a: 1}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fe4b024b82c1b4eb3f1d80702b8e7a, type: 3}
+  m_Name: Nodo1
+  m_EditorClassIdentifier: 
+  m_DialogueLine: "Jos\xE9 y \xC1lvaro utilizan eToro para invertir en los mercados
+    financieros.\r\nJos\xE9 investiga oportunidades de inversi\xF3n a nivel global,\r\n\xC1lvaro,
+    en cambio investiga c\xF3mo llegar a ser un mago de nivel 60 de un videojuego.\r\nJos\xE9
+    sigue el canal de noticias para conocer las \xFAltimas informaciones de los mercados,\r\n\xC1lvaro
+    sigue el canal de noticias para ver los \xFAltimos v\xEDdeos de gatos.\r\nJos\xE9
+    tiene un lista de vigilancia de activos prometedores,\r\n\xC1lvaro tambi\xE9n
+    tiene una lista de vigilancia ( \u0361\xB0 \u035C\u0296 \u0361\xB0).\r\nEntonces
+    \xBFPor qu\xE9 \xC1lvaro es tan buen inversor como Jos\xE9?\r\nPorque \xC1lvaro
+    utiliza la funci\xF3n CopyTrader de eToro para replicar autom\xE1ticamente toda
+    la actividad inversora de Jos\xE9.\r\nCuando Jos\xE9 Realiza una operaci\xF3n,
+    \xC1lvaro tambi\xE9n la hace.\r\nInvierta como Jos\xE9, \xA1En eToro! La plataforma
+    de Trading social l\xEDder en el mundo."
+  m_Choices: []
