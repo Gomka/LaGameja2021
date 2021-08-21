@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1fe4b024b82c1b4eb3f1d80702b8e7a, type: 3}
   m_Name: Nodo2
   m_EditorClassIdentifier: 
-  m_DialogueLine: "TE QUIERES IR ESTAMOS FOLLANDO, SABES? / El delicioso. Ahora abandone
-    la golafreria y m\xE1rchese."
+  m_DialogueLine: "TE QUIERES IR ESTAMOS FOLLANDO, SABES? Ahora abandone la golafreria
+    y m\xE1rchese."
   m_Choices:
   - m_ChoicePreview: Lo siento, lo siento
     m_ChoiceNode: {fileID: 11400000, guid: 1d08eaa2b00b2fe498c9eb49b49cf09e, type: 2}

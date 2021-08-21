@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DialogueLine: Bon dia Robert, quina instancia de assignatura et toca amb mi avui?
   m_Choices:
-  - m_ChoicePreview: "Cap avui nom\xE9s he vingur a una revisi\xF3 d'examen."
+  - m_ChoicePreview: Vinc a revisar un examen
     m_ChoiceNode: {fileID: 11400000, guid: e8c14c3eb858ff541b495943a609d5ff, type: 2}

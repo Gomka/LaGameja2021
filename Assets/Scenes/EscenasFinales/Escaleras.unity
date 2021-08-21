@@ -658,7 +658,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f2b45af842bffca41ac54c51ccd37990, type: 2}
+  - {fileID: 2100000, guid: 33115b5abe9b2e34983624f16c5972f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -880,7 +880,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f2b9f3cd5caea314a8deb530a15bd80e, type: 2}
+  - {fileID: 2100000, guid: 981c19fbb5b75274a8e0a10ebc79325c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 1315178370}
   - component: {fileID: 1315178369}
   m_Layer: 0
-  m_Name: PuertaRecepcion
+  m_Name: PuertaPasillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1466,7 +1466,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 62ca18179c822c040ba61948baa7cc4d, type: 2}
+  - {fileID: 2100000, guid: 88e7e26da5cb3234f960ee721cdfe91e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1683,7 +1683,7 @@ PrefabInstance:
       objectReference: {fileID: 71743355}
     - target: {fileID: 6710628962620924541, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.00000047683716
       objectReference: {fileID: 0}
     - target: {fileID: 6710628962620924541, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1695,7 +1695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.3499994
+      value: 4.35
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.y

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DialogueLine: Ja que estas em pots ajudar a buscar el meu gat, que l'he perdut.
   m_Choices:
-  - m_ChoicePreview: No, wtf!!!
+  - m_ChoicePreview: "Uste est\xE1 demente"
     m_ChoiceNode: {fileID: 11400000, guid: 9672dbf532af6194fa93dae7dd15e156, type: 2}
-  - m_ChoicePreview: Clar, sense dubte
+  - m_ChoicePreview: "*le shupa el pez\xF3n*"
     m_ChoiceNode: {fileID: 11400000, guid: 9672dbf532af6194fa93dae7dd15e156, type: 2}

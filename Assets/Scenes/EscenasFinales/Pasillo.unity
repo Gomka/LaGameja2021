@@ -354,7 +354,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84919352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.68, y: -1.92, z: 0}
+  m_LocalPosition: {x: 6.68, y: -1.65, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 37003529}
@@ -386,7 +386,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.54242325, y: 0.88500977}
+  m_Offset: {x: -0.54242325, y: 1.4319345}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -397,7 +397,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 14.266167, y: 9.750019}
+  m_Size: {x: 14.266167, y: 10.843865}
   m_EdgeRadius: 0
 --- !u!212 &84919356
 SpriteRenderer:
@@ -1210,7 +1210,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f2b9f3cd5caea314a8deb530a15bd80e, type: 2}
+  - {fileID: 2100000, guid: 681ef4d14d8884a4b8cf71332b490383, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1759,6 +1759,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PuertaAula2
       objectReference: {fileID: 0}
+    - target: {fileID: 6928921763082666305, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116414294026900112, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b5d6049852bfa7488d552bb1083bdcb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
 --- !u!4 &1238067674 stripped
@@ -2207,7 +2215,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f2b9f3cd5caea314a8deb530a15bd80e, type: 2}
+  - {fileID: 2100000, guid: b129fd6676c84354a874d801c1d22590, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2793,6 +2801,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PuertaAula3
       objectReference: {fileID: 0}
+    - target: {fileID: 6928921763082666305, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116414294026900112, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4a6eb3de5c17bc41a500ecd6af4f369, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
 --- !u!4 &2105925998 stripped
@@ -2859,6 +2875,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PuertaAula1
       objectReference: {fileID: 0}
+    - target: {fileID: 6928921763082666305, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116414294026900112, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd935b94a3362dd4fb50b2fb2f06f9b1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
 --- !u!4 &2835902854225315776 stripped

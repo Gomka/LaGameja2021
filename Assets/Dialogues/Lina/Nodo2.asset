@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DialogueLine: Bup, bup *habla en perro*
   m_Choices:
-  - m_ChoicePreview: Bup Bup
+  - m_ChoicePreview: BRRRR Soc un lloro parlador
     m_ChoiceNode: {fileID: 11400000, guid: e9f23938a2ae8b24f927fc18cc0345ff, type: 2}
-  - m_ChoicePreview: "Sep ara l'estava buscant molts alumnes hem susp\xE8s "
+  - m_ChoicePreview: i -=-1;
     m_ChoiceNode: {fileID: 11400000, guid: e9f23938a2ae8b24f927fc18cc0345ff, type: 2}

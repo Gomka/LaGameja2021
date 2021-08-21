@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DialogueLine: "Ostres, se m'han acabat els folletins haur\xE9 de anar a buscar
     m\xE9s folletins als despatxos."
   m_Choices:
-  - m_ChoicePreview: "Ll\xE0stima!"
+  - m_ChoicePreview: Conoces a lola
     m_ChoiceNode: {fileID: 11400000, guid: 9eb3a88d488488648853af365eb3e99d, type: 2}
   - m_ChoicePreview: On estan els despatxos?
     m_ChoiceNode: {fileID: 11400000, guid: a0d58ec81c39b614293f8662e3a1ec9c, type: 2}

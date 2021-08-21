@@ -861,6 +861,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8116414294026900112, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a238dbddc63bdf4eb6046f9930e97a0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
 --- !u!1 &452116139
@@ -1609,6 +1613,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4559875764872337352, guid: 29f0e394630d621419e0e6269f766cbb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2d0fce8a61829614997b9e5588e2420d, type: 2}
     - target: {fileID: 8532157179371145166, guid: 29f0e394630d621419e0e6269f766cbb, type: 3}
       propertyPath: m_Name
       value: MujerQualquiera1

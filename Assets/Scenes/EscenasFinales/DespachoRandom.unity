@@ -216,7 +216,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7bcfd8ea09c5daf46a657d5dab0764f2, type: 2}
+  - {fileID: 2100000, guid: 056a72547da4f7a41a658b65fa24aeab, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -630,6 +630,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6699714098329727319, guid: 83733ebc773302244971be4d3cde90e6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c2a7b499094bb7143b59abbc1904fc73, type: 2}
     - target: {fileID: 6960814596526036950, guid: 83733ebc773302244971be4d3cde90e6, type: 3}
       propertyPath: m_Name
       value: Picardy
@@ -817,11 +821,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7641713144610175147, guid: 095ab990d8c76e044a6077bf1f99e2b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.08
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: 7641713144610175147, guid: 095ab990d8c76e044a6077bf1f99e2b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.12
+      value: -0.804
       objectReference: {fileID: 0}
     - target: {fileID: 7641713144610175147, guid: 095ab990d8c76e044a6077bf1f99e2b6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1382,6 +1386,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 1526280595773072279, guid: 46b517d1b5dd3bf4e8253c021f99e2f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76e6fcc75c6ab864fbaa92f580e3add3, type: 2}
     - target: {fileID: 2238009927503516091, guid: 46b517d1b5dd3bf4e8253c021f99e2f5, type: 3}
       propertyPath: m_RootOrder
       value: 3

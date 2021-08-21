@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DialogueLine: '*existe*'
   m_Choices:
-  - m_ChoicePreview: "\xBFQu\xE9 hacen este papel y este l\xE1piz solos en esta clase? "
+  - m_ChoicePreview: Wtf u doin
     m_ChoiceNode: {fileID: 11400000, guid: 268d9e69ba6ff134a8e82f9b2d3c594c, type: 2}

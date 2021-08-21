@@ -17,7 +17,7 @@ MonoBehaviour:
   m_Choices:
   - m_ChoicePreview: No, pero tenia una pregunta
     m_ChoiceNode: {fileID: 11400000, guid: 82c49bab696a0644d9a4bf3a9f5397c9, type: 2}
-  - m_ChoicePreview: "S\xED, de hecho, \xBFcomo lo has sabido?"
+  - m_ChoicePreview: "\xBFcomo lo has sabido?"
     m_ChoiceNode: {fileID: 11400000, guid: f7e40c3bb9fb47145b1faa26a73ecc53, type: 2}
-  - m_ChoicePreview: "Yo ya estudio aqu\xED..."
+  - m_ChoicePreview: "Yo estudio aqu\xED..."
     m_ChoiceNode: {fileID: 11400000, guid: c554a6559dd86874db1eb8b11a171c52, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DialogueLine: "Pero si no has susp\xE8s l'examen."
   m_Choices:
-  - m_ChoicePreview: Ah bueno
+  - m_ChoicePreview: Aweno
     m_ChoiceNode: {fileID: 11400000, guid: ddafa4e22a645a44aae7b22263daf9ad, type: 2}
-  - m_ChoicePreview: "I no ho podries haver penjat b\xE9?"
+  - m_ChoicePreview: Kemekuenta?
     m_ChoiceNode: {fileID: 11400000, guid: db69308cddaca9a4ab4bfb6189e71434, type: 2}

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DialogueLine: "Dan\xE7ando cheguei"
   m_Choices:
-  - m_ChoicePreview: "Dale a tu cuerpo alegr\xEDa macarena, eeeeeeeh MACARENA aja! "
+  - m_ChoicePreview: Sopinha du macaco
     m_ChoiceNode: {fileID: 11400000, guid: b7cc9a981e736994fa410f861ce32584, type: 2}

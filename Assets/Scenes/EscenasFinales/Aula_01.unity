@@ -1008,6 +1008,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8795587469327515354, guid: cf62a6e63fb9d68458cb44db7dcea78c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 26e327e4feb77e24bb14554547856abb, type: 2}
     m_RemovedComponents:
     - {fileID: 2378676215521516965, guid: cf62a6e63fb9d68458cb44db7dcea78c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cf62a6e63fb9d68458cb44db7dcea78c, type: 3}
@@ -1646,6 +1650,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6324249800274094771, guid: 209ac93ac2b80174992238960f3c6d6f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd7373c48a57a624f9bc162077052df5, type: 2}
     - target: {fileID: 8850825346146640100, guid: 209ac93ac2b80174992238960f3c6d6f, type: 3}
       propertyPath: m_Name
       value: Lina
@@ -1719,5 +1727,9 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8116414294026900112, guid: fab59cf417b98004ab91122e307b5db2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 428bceda5a9fd1f4c9ce69c84192d43a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab59cf417b98004ab91122e307b5db2, type: 3}

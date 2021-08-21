@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1fe4b024b82c1b4eb3f1d80702b8e7a, type: 3}
   m_Name: Nodo4
   m_EditorClassIdentifier: 
-  m_DialogueLine: "\xA1Dale pa\u2019 entro, brother!\r\n"
+  m_DialogueLine: 'Anem-hi
+
+'
   m_Choices: []
