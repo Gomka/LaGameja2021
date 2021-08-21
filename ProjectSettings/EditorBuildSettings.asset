@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenasFinales/Lavabo.unity
     guid: 187906dc9876e784789a0d10c30dced3
   - enabled: 1
-    path: Assets/Scenes/EscenasFinales/Schizoroom CaraDef.unity
+    path: Assets/Scenes/EscenasFinales/Caretter.unity
     guid: 556885a2cdc14da4e98e2b462c608924
   - enabled: 1
     path: Assets/Scenes/EscenasFinales/FleshyPasillo.unity
@@ -54,24 +54,24 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenasFinales/CuartoOscuro.unity
     guid: 9603fd3de063a034dbf8d434008a21a5
   - enabled: 1
-    path: Assets/Scenes/EscenasFinales/Schizoroom Cheguei.unity
+    path: Assets/Scenes/EscenasFinales/Cheguei.unity
     guid: eeeb9b57cf57af14ca3a5ddadd35f847
   - enabled: 1
-    path: Assets/Scenes/EscenasFinales/Schizoroom Manosetter.unity
+    path: Assets/Scenes/EscenasFinales/Manosetter.unity
     guid: 0068abe2b81d7be41b9c4610d0c9473c
   - enabled: 1
-    path: Assets/Scenes/EscenasFinales/Schizoroom Oj eter.unity
+    path: Assets/Scenes/EscenasFinales/Ojetter.unity
     guid: ae793a2d812237f4da2c20178e50e618
   - enabled: 1
     path: Assets/Scenes/EscenasFinales/RemRoom.unity
     guid: 7336ab3c7e53c834b99ab2913bf790ce
   - enabled: 1
-    path: Assets/Scenes/EscenasFinales/Schizoroom Pieser.unity
+    path: Assets/Scenes/EscenasFinales/Pieser.unity
     guid: 2ba70532b894daf4393d420b91e39206
   - enabled: 1
-    path: Assets/Scenes/EscenasFinales/Schizoroom Run.unity
+    path: Assets/Scenes/EscenasFinales/RunRoom.unity
     guid: d3037c3769e4f574284fd1cc27dd357d
   - enabled: 1
-    path: Assets/Scenes/EscenasFinales/SchizoRoom1.unity
+    path: Assets/Scenes/EscenasFinales/VaterSchizo.unity
     guid: 299fe83dd205c3e44b04a971471d8df5
   m_configObjects: {}
