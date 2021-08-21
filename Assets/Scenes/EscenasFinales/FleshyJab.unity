@@ -262,6 +262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa5fac682476afa42af7cf7193b432ff, type: 3}
+--- !u!82 &187057852 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5994595856807680300, guid: 79bee7e5a1dc6b54b970d189f2c5f916, type: 3}
+  m_PrefabInstance: {fileID: 1200889610}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &504910368
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +493,8 @@ GameObject:
   m_Component:
   - component: {fileID: 563967526}
   - component: {fileID: 563967527}
+  - component: {fileID: 563967529}
+  - component: {fileID: 563967528}
   m_Layer: 0
   m_Name: PuertaDeFalopio
   m_TagString: Untagged
@@ -528,7 +535,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f2b9f3cd5caea314a8deb530a15bd80e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -560,6 +567,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &563967528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563967525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ed5d2a8b261104b8f253cca8d4ee4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLevel: FleshyPasillo
+  audioSource: {fileID: 187057852}
+  audioClip: {fileID: 8300000, guid: 6b762c3d19b342b46a261cfef5079d7e, type: 3}
+--- !u!61 &563967529
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563967525}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.008339167, y: -1.9346831}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 5}
+    newSize: {x: 4, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.1153517, y: 1.1306337}
+  m_EdgeRadius: 0
 --- !u!1001 &688618970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -892,6 +940,22 @@ PrefabInstance:
     - target: {fileID: 7351171127275653138, guid: d15e518e823db8b4880edfcd0ebdb118, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7351171127275653166, guid: d15e518e823db8b4880edfcd0ebdb118, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5654616
+      objectReference: {fileID: 0}
+    - target: {fileID: 7351171127275653166, guid: d15e518e823db8b4880edfcd0ebdb118, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9665017
+      objectReference: {fileID: 0}
+    - target: {fileID: 7351171127275653166, guid: d15e518e823db8b4880edfcd0ebdb118, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.016678333
+      objectReference: {fileID: 0}
+    - target: {fileID: 7351171127275653166, guid: d15e518e823db8b4880edfcd0ebdb118, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.19132447
       objectReference: {fileID: 0}
     - target: {fileID: 7351171127275653167, guid: d15e518e823db8b4880edfcd0ebdb118, type: 3}
       propertyPath: m_Name

@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ed5d2a8b261104b8f253cca8d4ee4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLevel: FlehsyPasillo
+  targetLevel: FleshyPasillo
   audioSource: {fileID: 1808385956}
   audioClip: {fileID: 8300000, guid: 76453fcb2a2364c46868727e5d395356, type: 3}
 --- !u!61 &756862973
