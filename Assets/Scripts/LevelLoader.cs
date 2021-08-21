@@ -6,12 +6,16 @@ public class LevelLoader : MonoBehaviour
 {
     [SerializeField] Animator animator;
     private Transform player;
+    [SerializeField] private bool hasPlayer = true;
 
     private void Awake()
     {
-        player = FindObjectOfType<InputHandler>().gameObject.transform;
+        if(hasPlayer)
+        {
+            player = FindObjectOfType<InputHandler>().gameObject.transform;
 
-        LoadCurrentCoords(SceneManager.GetActiveScene().name);
+            LoadCurrentCoords(SceneManager.GetActiveScene().name);
+        } 
     }
 
     public void LoadLevel(string levelName)
@@ -21,7 +25,7 @@ public class LevelLoader : MonoBehaviour
 
     IEnumerator LoadScene(string levelName)
     {
-        SaveCurrentCoords(SceneManager.GetActiveScene().name);
+        if(hasPlayer) SaveCurrentCoords(SceneManager.GetActiveScene().name);
         animator.SetTrigger("FadeIn");
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(levelName);
