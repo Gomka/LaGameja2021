@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenasFinales/Schizoroom CaraDef.unity
     guid: 556885a2cdc14da4e98e2b462c608924
   - enabled: 1
-    path: Assets/Scenes/EscenasFinales/Fleshroom Main.unity
+    path: Assets/Scenes/EscenasFinales/FleshyPasillo.unity
     guid: 28f1e87bee618c8458dc6b3463c3bc47
   - enabled: 1
     path: Assets/Scenes/EscenasFinales/CuartoOscuro.unity

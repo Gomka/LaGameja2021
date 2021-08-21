@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bba9511a38fc5a4b962dee24dab94a3, type: 3}
+  m_Name: Kero' Inicial
+  m_EditorClassIdentifier: 
+  m_NPCName: Kero'
+  m_NPCVoice: {fileID: 8300000, guid: b9ede5f3e9b26a8459750da6e0c6166d, type: 3}
+  m_FirstNode: {fileID: 11400000, guid: e7876b1fa8b7ba54181dc0e859d6840a, type: 2}
+  m_Portrait: {fileID: -3069564340549496394, guid: b9ea1f3c45516e446859e24eccedd282, type: 3}

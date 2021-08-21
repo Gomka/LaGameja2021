@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bba9511a38fc5a4b962dee24dab94a3, type: 3}
+  m_Name: Yuk Inicial
+  m_EditorClassIdentifier: 
+  m_NPCName: Yuk
+  m_NPCVoice: {fileID: 8300000, guid: 0a4111c1723fb554a9d77b2f9ed4314a, type: 3}
+  m_FirstNode: {fileID: 11400000, guid: cfa2b86ca7556774e9a21f62194054c4, type: 2}
+  m_Portrait: {fileID: -6791981778480630815, guid: dd9222c0625c8844e883a34246de14a3, type: 3}
