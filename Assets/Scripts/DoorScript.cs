@@ -8,6 +8,7 @@ public class DoorScript : Interactable
     [SerializeField] string targetLevel;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip audioClip;
+    private bool isOpen = false;
 
     private void Awake()
     {
@@ -16,8 +17,9 @@ public class DoorScript : Interactable
 
     public override void Interact()
     {
-        if(inside)
+        if(inside && !isOpen)
         {
+            isOpen = true;
             audioSource.PlayOneShot(audioClip);
             levelLoader.LoadLevel(targetLevel);
         }
