@@ -36,13 +36,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-<<<<<<< HEAD
     - _Colliding: 0
     - _Grosor: 0.2
-=======
-    - _Colliding: 1
-    - _Grosor: 0.3
->>>>>>> 2f6d019e7cc7cba2744aded95527bc6afb2637d1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
