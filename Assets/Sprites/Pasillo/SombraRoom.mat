@@ -38,5 +38,5 @@ Material:
     m_Floats: []
     m_Colors:
     - _Cuerpo: {r: 0, g: 0, b: 0, a: 1}
-    - _Ojos: {r: 0.37254897, g: 0.8039216, b: 0.8941177, a: 1}
+    - _Ojos: {r: 0.35686275, g: 0.35686275, b: 0.35686275, a: 1}
   m_BuildTextureStacks: []
