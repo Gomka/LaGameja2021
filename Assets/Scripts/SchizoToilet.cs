@@ -5,6 +5,13 @@ using UnityEngine;
 public class SchizoToilet : MonoBehaviour
 {
     [SerializeField] private GameObject player;
+    [SerializeField] private AudioClip clip;
+    [SerializeField] private AudioSource source;
+
+    private void Start()
+    {
+        source.PlayOneShot(clip);
+    }
 
     public void SpawnPlayer()
     {
@@ -15,5 +22,4 @@ public class SchizoToilet : MonoBehaviour
     {
         player.SetActive(false);
     }
-
 }
