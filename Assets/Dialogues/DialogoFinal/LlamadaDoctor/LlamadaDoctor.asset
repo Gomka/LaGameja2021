@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bba9511a38fc5a4b962dee24dab94a3, type: 3}
+  m_Name: LlamadaDoctor
+  m_EditorClassIdentifier: 
+  m_NPCName: El Doctor Mengueche
+  m_NPCVoice: {fileID: 8300000, guid: 3de6c95fa4f358849b9879fa73fe69de, type: 3}
+  m_FirstNode: {fileID: 11400000, guid: 88c444a83ec8b034ba1701d877bbf6ba, type: 2}
+  m_Portrait: {fileID: 21300000, guid: da98921b31d71cb408cb2c5b6a6ed53e, type: 3}
