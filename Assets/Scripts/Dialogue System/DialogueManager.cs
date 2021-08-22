@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -17,7 +18,7 @@ public class DialogueManager : MonoBehaviour
 
     private MovementController movement;
 
-    private Coroutine dialogueCoroutine;
+    private List<Coroutine> dialogueCoroutine;
 
     [SerializeField] private Image portrait;
 
@@ -26,6 +27,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        dialogueCoroutine = new List<Coroutine>();
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -45,7 +47,7 @@ public class DialogueManager : MonoBehaviour
 
             EnableButtons();
 
-            dialogueCoroutine = StartCoroutine(TypeSentence(currentNode.dialogueLine));
+            dialogueCoroutine.Add(StartCoroutine(TypeSentence(currentNode.dialogueLine)));
         }
     }
 
@@ -62,7 +64,7 @@ public class DialogueManager : MonoBehaviour
             currentNode = currentNode.Choices[index].ChoiceNode;
             EnableButtons();
 
-            dialogueCoroutine = StartCoroutine(TypeSentence(currentNode.dialogueLine));
+            dialogueCoroutine.Add(StartCoroutine(TypeSentence(currentNode.dialogueLine)));
         }
     }
 
@@ -86,7 +88,10 @@ public class DialogueManager : MonoBehaviour
             animator.SetBool("IsOpen", false);
             movement.enabled = true;
             currentNode = null;
-            if(dialogueCoroutine != null) StopCoroutine(dialogueCoroutine);
+            foreach (Coroutine co in dialogueCoroutine) {
+                StopCoroutine(co);
+            }
+            dialogueCoroutine.Clear();
             yield return new WaitForSeconds(0.5f);
             dialogueText.text = "";
             isInteracting = false;

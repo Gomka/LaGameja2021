@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/EscenasFinales/MainMenu.unity
+    guid: 8059349e5986b424d9451019285d05ff
+  - enabled: 1
     path: Assets/Scenes/EscenasFinales/Schizo Rooms/SR_Run.unity
     guid: d3037c3769e4f574284fd1cc27dd357d
   - enabled: 1
@@ -74,9 +77,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EscenasFinales/Lavabo.unity
     guid: 187906dc9876e784789a0d10c30dced3
-  - enabled: 1
-    path: Assets/Scenes/EscenasFinales/MainMenu.unity
-    guid: 8059349e5986b424d9451019285d05ff
   - enabled: 1
     path: Assets/Scenes/EscenasFinales/Pasillo.unity
     guid: 43760a7c5585fcc4cb57ab95b42f1b78

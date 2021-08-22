@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DialogueLine: Hola, jo em dic MujerQualquiera1
   m_Choices:
-  - m_ChoicePreview: "Me encantan tus pendientes, mi abuela ten\xEDa unos iguales"
+  - m_ChoicePreview: Eii soy el robalito
     m_ChoiceNode: {fileID: 11400000, guid: fc3938c58c7b0d848b8bb5e2d0f27a4e, type: 2}
   - m_ChoicePreview: "Me encantan tus piernas, \xBFte las puedo abrir?"
     m_ChoiceNode: {fileID: 11400000, guid: 8f9a049b9401aea458c8bee43da3be9b, type: 2}

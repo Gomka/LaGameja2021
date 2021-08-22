@@ -239,6 +239,8 @@ GameObject:
   - component: {fileID: 173504322}
   - component: {fileID: 173504330}
   - component: {fileID: 173504329}
+  - component: {fileID: 173504332}
+  - component: {fileID: 173504331}
   m_Layer: 0
   m_Name: Colliders
   m_TagString: Untagged
@@ -363,7 +365,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 6.9036226, y: -1.5886114}
+  m_Offset: {x: 6.823088, y: -1.5886114}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -374,7 +376,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6176429, y: 4.1772237}
+  m_Size: {x: 0.7787123, y: 4.1772237}
   m_EdgeRadius: 0
 --- !u!61 &173504327
 BoxCollider2D:
@@ -455,7 +457,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -5.3445807, y: 0.012334347}
+  m_Offset: {x: -5.348937, y: 0.012334347}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -466,7 +468,59 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7451768, y: 5.168974}
+  m_Size: {x: 0.73646355, y: 5.168974}
+  m_EdgeRadius: 0
+--- !u!61 &173504331
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173504321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -5.3269157, y: -1.2657304}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0940266, y: 2.6635308}
+  m_EdgeRadius: 0
+--- !u!61 &173504332
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173504321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.4667186, y: -1.2673304}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9334372, y: 2.6998792}
   m_EdgeRadius: 0
 --- !u!1 &179073127
 GameObject:
@@ -968,7 +1022,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: cced46b5afb38ac429ce4656737800ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1636,7 +1690,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 6a11b1588f12c364b82f11ecf38ae1a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1683,7 +1737,7 @@ PrefabInstance:
       objectReference: {fileID: 71743355}
     - target: {fileID: 6710628962620924541, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00000047683716
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6710628962620924541, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1695,7 +1749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.35
+      value: 4.3499994
       objectReference: {fileID: 0}
     - target: {fileID: 7455160952251081988, guid: 6630e1ee2068f4248b88ca895c777b79, type: 3}
       propertyPath: m_LocalPosition.y

@@ -15,6 +15,6 @@ MonoBehaviour:
   m_DialogueLine: Bup, bup *habla en perro*
   m_Choices:
   - m_ChoicePreview: BRRRR Soc un lloro parlador
-    m_ChoiceNode: {fileID: 11400000, guid: e9f23938a2ae8b24f927fc18cc0345ff, type: 2}
+    m_ChoiceNode: {fileID: 11400000, guid: b8d3e1a9eae79c948b59495c82c3d757, type: 2}
   - m_ChoicePreview: i -=-1;
     m_ChoiceNode: {fileID: 11400000, guid: e9f23938a2ae8b24f927fc18cc0345ff, type: 2}
