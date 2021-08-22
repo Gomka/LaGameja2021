@@ -10,10 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1fe4b024b82c1b4eb3f1d80702b8e7a, type: 3}
-  m_Name: Nodo1
+  m_Name: Nodo2
   m_EditorClassIdentifier: 
-  m_DialogueLine: I'm a pussycat miau (O te alejas o te cumeo la cara saco de carne
-    con patas)
-  m_Choices:
-  - m_ChoicePreview: haha furro xd
-    m_ChoiceNode: {fileID: 11400000, guid: c8807c1b893bb3840916fd9382a9d4cf, type: 2}
+  m_DialogueLine: -- Pichula (x1) ha desaparecido de tu inventario --
+  m_Choices: []
